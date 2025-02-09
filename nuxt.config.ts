@@ -20,6 +20,10 @@ export default defineNuxtConfig({
     'bootstrap/dist/css/bootstrap.css',
   ],
 
+
+
+
+
   modules: [
       '@pinia/nuxt',
     '@nuxtjs/google-fonts',
