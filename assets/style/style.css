@@ -228,24 +228,28 @@ header {
 
 .how-we-sell-house-fast-wrapper {
     text-align: center;
-    max-width: 900px;
+
 }
+
 .how-we-sell-house-fast-heading {
     font-size: 32px;
     font-weight: 900;
     color: #36b4e6;
     padding: 0;
 }
+
 .how-we-sell-house-fast-paragraph {
     margin: 0;
-    padding-top: 15px;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
+    padding: 15px 65px 0 65px;
 }
+
 .content-box-section {
     font-family: 'sweet-sans-pro';
 }
+
 .content-box-container {
     display: flex;
     align-items: center;
@@ -253,6 +257,7 @@ header {
     padding: 60px 0;
     gap: 30px;
 }
+
 .content-box-wrapper {
     text-align: center;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
@@ -260,32 +265,192 @@ header {
     min-height: 360px;
     padding: 36px;
 }
+
 .content-box-heading {
     font-size: 20px;
     font-weight: 800;
     padding: 20px 0;
     margin: 0;
 }
+
 .content-paragraph {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
     margin: 0;
 }
+
 .content-icon img {
     width: 60px;
 }
+
 .icon-with-heading {
     transition: 0.3s ease;
 }
+
 .icon-with-heading:hover {
     color: #36b4e6;
 }
+
 .sell-your-house-with-stress-free-section {
     background-color: #151f4b;
+    font-family: 'sweet-sans-pro';
 }
+
 .house-buyer-team-image {
 }
+
 .house-buyer-team-image img {
     height: 500px;
+}
+
+.sell-my-house-fast-spokane-heading {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+
+.sell-my-house-fast-spokane-paragraph {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.sell-my-house-fast-spokane-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 20px 60px 30px;
+}
+
+.sell-my-house-fast-spokane-paragraph a {
+    color: white;
+    transition: 0.3s ease;
+}
+
+.sell-my-house-fast-spokane-paragraph a:hover {
+    color: #1883f4;
+    text-decoration: unset;
+}
+
+.sell-my-house-fast-spokane-btn button {
+    font-size: 16px;
+    height: 60px;
+    width: 270px;
+}
+
+.people-love-us-wrapper {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.solution-section {
+    background-color: #F5F9FC;
+    padding: 50px 0;
+}
+
+.solution-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.solution-card h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.solution-list {
+    list-style: none;
+    padding: 0;
+}
+
+.solution-list li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.vs-box {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.overflow-paragraph {
+    overflow-y: scroll;
+    height: 15vh;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    padding-top: 10px;
+}
+.people-love-us-section {
+    font-family: 'sweet-sans-pro';
+}
+
+.people-love-us-content-box-wrapper {
+    text-align: unset;
+    min-height: unset;
+    padding: 20px;
+    width: 350px;
+}
+
+.people-love-us-box-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.rating-men-links {
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+}
+.rating-men-links:hover {
+    text-decoration: none;
+}
+.people-love-us-box-links img {
+    width: 110px;
+}
+.people-love-us-box-links span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #888;
+}
+.people-love-us-box {
+    padding: 20px;
+}
+.the-easiest-way-to-sell-house-section {
+    font-family: 'sweet-sans-pro';
+    background-color: rgba(54, 180, 230, 0.1);
+}
+.the-easy-way-to-sell-house-wrapper {
+    padding: 60px 0;
+}
+.easy-way-to-sell-icon-heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.easy-way-to-sell-house-points-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+.easy-way-to-sell-house-points-wrapper {
+    max-width: 28%;
+}
+.easy-way-to-sell-house-paragraph {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 20px;
 }
