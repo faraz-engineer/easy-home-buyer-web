@@ -349,6 +349,40 @@ onMounted(() => {
         </div>
     </section>
 
+    <section class="washington-property-address-section">
+        <div class="container-fluid">
+            <div class="how-we-sell-house-fast-wrapper the-easy-way-to-sell-house-wrapper">
+                <h1 class="common-heading how-we-sell-house-fast-heading" style="color: black">
+                    ENTER THE WASHINGTON PROPERTY ADDRESS BELOW
+                </h1>
+                <p class="how-we-sell-house-fast-paragraph">
+                    TO GET YOUR FREE CASH OFFER
+                </p>
+            </div>
+            <div class="washington-property-address-wrapper">
+              <form>
+                 <div class="washington-property-address-input">
+                  <input class="property-form-input" type="text" placeholder="Property Address *">
+                 </div>
+                  <div class="washington-property-address-input">
+                      <input class="property-form-input" type="text" placeholder="Name *">
+                  </div>
+                  <div class="washington-property-address-input">
+                      <input class="property-form-input" type="text" placeholder="Email *">
+                  </div>
+                  <div class="washington-property-address-input">
+                      <input class="property-form-input" type="tel" placeholder="Phone *">
+                  </div>
+                  <div class="sell-my-house-fast-spokane-btn">
+                      <button class="free-offer-header-btn">
+                          GET YOUR CASH OFFER
+                      </button>
+                  </div>
+              </form>
+            </div>
+        </div>
+    </section>
+
 </template>
 
 

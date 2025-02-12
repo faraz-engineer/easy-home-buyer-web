@@ -391,6 +391,7 @@ header {
     text-align: center;
     padding-top: 10px;
 }
+
 .people-love-us-section {
     font-family: 'sweet-sans-pro';
 }
@@ -408,37 +409,46 @@ header {
     align-items: center;
     gap: 5px;
 }
+
 .rating-men-links {
     font-size: 18px;
     color: #333;
     font-weight: 700;
 }
+
 .rating-men-links:hover {
     text-decoration: none;
 }
+
 .people-love-us-box-links img {
     width: 110px;
 }
+
 .people-love-us-box-links span {
     font-size: 12px;
     font-weight: 400;
     color: #888;
 }
+
 .people-love-us-box {
     padding: 20px;
 }
+
 .the-easiest-way-to-sell-house-section {
     font-family: 'sweet-sans-pro';
     background-color: rgba(54, 180, 230, 0.1);
 }
+
 .the-easy-way-to-sell-house-wrapper {
     padding: 60px 0;
 }
+
 .easy-way-to-sell-icon-heading {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .easy-way-to-sell-house-points-container {
     display: flex;
     justify-content: space-evenly;
@@ -446,11 +456,135 @@ header {
     gap: 30px;
     padding-bottom: 60px;
 }
+
 .easy-way-to-sell-house-points-wrapper {
     max-width: 28%;
 }
+
 .easy-way-to-sell-house-paragraph {
     font-size: 18px;
     margin: 0;
     padding-top: 20px;
+}
+
+.washington-property-address-section {
+    background-image: linear-gradient(105deg, rgba(54, 180, 230, 0.8) 12%, rgba(54, 180, 230, 0.8) 77%), url(~/assets/images/we-buy-ugly-houses-washington.jpg);
+    font-family: 'sweet-sans-pro';
+}
+
+.washington-property-address-wrapper {
+    padding: 0 30px 60px 30px;
+}
+
+.washington-property-address-wrapper form {
+    width: 100%;
+}
+
+.washington-property-address-input {
+    padding: 15px 0;
+}
+
+.property-form-input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.property-form-input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #151f4b;
+}
+
+.property-form-input:focus {
+    outline: none;
+}
+
+
+footer {
+    background-color: #151f4b;
+    font-family: 'sweet-sans-pro';
+}
+
+.footer-container {
+    padding: 50px 30px;
+}
+
+.footer-input-wrapper {
+    width: 60%;
+}
+.footer-form input:focus {
+    outline: none;
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-social-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.footer-office-address {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    gap: 70px;
+
+}
+
+.footer-address {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.footer-address a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.footer-links a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+.footer-links a:hover {
+    color: white;
+}
+.footer-copyright {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.copy-right-line {
+    padding: 20px 0;
+}
+.footer-address a:hover {
+    text-decoration: none;
+    color: #007BFF;
+}
+.footer-input-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer-heading {
+    color: #36b4e6;
 }
