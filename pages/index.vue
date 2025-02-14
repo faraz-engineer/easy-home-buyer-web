@@ -341,10 +341,37 @@ onMounted(() => {
                         homeowners sell houses for various reasons. Our goal is to give them an easy, stress-free way to
                         move on.
                     </p>
-
-
+                    <div class="sell-my-house-fast-point-wrapper">
+                        <div class="sell-my-house-fast-point">
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                               <p class="fs-5 fw-bold text-white">Reason 1:<span class="areas-we-serve-points-paragraph text-white">Job Relocation</span></p>
+                            </div>
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <p class="fs-5 fw-bold text-white">Reason 2:<span class="areas-we-serve-points-paragraph text-white">Avoid Foreclosure</span></p>
+                            </div>
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <p class="fs-5 fw-bold text-white">Reason 3:<span class="areas-we-serve-points-paragraph text-white">Selling Unwanted Rentals</span></p>
+                            </div>
+                        </div>
+                        <div class="sell-my-house-fast-point">
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <p class="fs-5 fw-bold text-white">Reason 4:<span class="areas-we-serve-points-paragraph text-white">Too Many Costly Repairs</span></p>
+                            </div>
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <p class="fs-5 fw-bold text-white">Reason 5:<span class="areas-we-serve-points-paragraph text-white"> Vacant Property</span></p>
+                            </div>
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <p class="fs-5 fw-bold text-white">Reason 6:<span class="areas-we-serve-points-paragraph text-white">Inherited A House</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -360,25 +387,202 @@ onMounted(() => {
                 </p>
             </div>
             <div class="washington-property-address-wrapper">
-              <form>
-                 <div class="washington-property-address-input">
-                  <input class="property-form-input" type="text" placeholder="Property Address *">
-                 </div>
-                  <div class="washington-property-address-input">
-                      <input class="property-form-input" type="text" placeholder="Name *">
-                  </div>
-                  <div class="washington-property-address-input">
-                      <input class="property-form-input" type="text" placeholder="Email *">
-                  </div>
-                  <div class="washington-property-address-input">
-                      <input class="property-form-input" type="tel" placeholder="Phone *">
-                  </div>
-                  <div class="sell-my-house-fast-spokane-btn">
-                      <button class="free-offer-header-btn">
-                          GET YOUR CASH OFFER
-                      </button>
-                  </div>
-              </form>
+                <form>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="text" placeholder="Property Address *">
+                    </div>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="text" placeholder="Name *">
+                    </div>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="text" placeholder="Email *">
+                    </div>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="tel" placeholder="Phone *">
+                    </div>
+                    <div class="sell-my-house-fast-spokane-btn">
+                        <button class="free-offer-header-btn">
+                            GET YOUR CASH OFFER
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="home-selling-solution-section">
+        <div class="container-fluid">
+            <div class="home-selling-solution-description">
+                <h1 class="common-heading how-we-sell-house-fast-heading text-center">
+                    The The Easy Home Buyer Home Selling Solution.
+                </h1>
+                <p class="buy-house-spokane-paragraph text-center">
+                    Why have other homeowners like you sold their house The Easy Home Buyer?
+                </p>
+            </div>
+            <div class="buy-house-spokane-container justify-content-center">
+                <div class="traditional-home-selling-box">
+                    <h2 class="traditional-box-heading">
+                        Traditional Process
+                    </h2>
+                    <div class="areas-we-serve-points home-selling-solution-points">
+                        <img width="30px" src="~/assets/images/cross.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Pay 6% Plus Other Fees</p>
+                    </div>
+                    <div class="areas-we-serve-points home-selling-solution-points">
+                        <img width="30px" src="~/assets/images/cross.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Unpredictable Offers</p>
+                    </div>
+                    <div class="areas-we-serve-points home-selling-solution-points">
+                        <img width="30px" src="~/assets/images/cross.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Cleanup and Repair Stress</p>
+                    </div>
+                    <div class="areas-we-serve-points home-selling-solution-points">
+                        <img width="30px" src="~/assets/images/cross.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Showings and Open Houses</p>
+                    </div>
+                    <div class="areas-we-serve-points home-selling-solution-points">
+                        <img width="30px" src="~/assets/images/cross.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Long Sales Prices, Often 2-3+ Months</p>
+                    </div>
+                </div>
+                <div class="easy-home-selling-box">
+                    <h2 class="traditional-box-heading">
+                        The Easy Home Buyer
+                    </h2>
+                    <div class="areas-we-serve-points easy-home-selling-points">
+                        <img width="30px" src="~/assets/images/check.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Zero Fees to Sell Your House</p>
+                    </div>
+                    <div class="areas-we-serve-points easy-home-selling-points">
+                        <img width="30px" src="~/assets/images/check.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Highest Off-Market Price</p>
+                    </div>
+                    <div class="areas-we-serve-points easy-home-selling-points">
+                        <img width="30px" src="~/assets/images/check.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Sell As-Is. No Cleanup. No Repairs.</p>
+                    </div>
+                    <div class="areas-we-serve-points easy-home-selling-points">
+                        <img width="30px" src="~/assets/images/check.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">Close In As Little As 7 Days</p>
+                    </div>
+                    <div class="areas-we-serve-points easy-home-selling-points">
+                        <img width="30px" src="~/assets/images/check.svg">
+                        <p class="areas-we-serve-points-paragraph text-white">No Closing Costs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Buy-Houses-Spokane-section">
+        <div class="container-fluid">
+            <div class="buy-house-spokane-container">
+                <div class="buy-house-spokane-description">
+                    <h1 class="buy-house-spokane-heading">We Buy Houses Spokane</h1>
+                    <p class="buy-house-spokane-paragraph">
+                        Find out how <a class="buy-house-spokane-link" href="#">Our Home Buying Process</a> works!
+                    </p>
+                    <p class="buy-house-spokane-paragraph">We might not know precisely why you’re selling your
+                        Spokane
+                        house, but we’re happy to buy it from you. The Easy Home Buyer provides solutions that fit
+                        your needs, guaranteeing that you can move forward without waiting for months, spending
+                        extra cash, and risking any bank procedures.
+                    </p>
+                    <p class="buy-house-spokane-paragraph">We buy your house as it is and take care of the paperwork
+                        to
+                        close in a few days! It may seem too good to be true, but it’s a reality with The Easy Home
+                        Buyer!
+                    </p>
+                </div>
+                <div class="buy-house-spokane-image">
+                    <img src="~/assets/images/we-buy-houses-spokane.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spokane-house-for-sale-section">
+        <div class="container-fluid">
+            <div class="spokane-house-for-sale-container buy-house-spokane-container">
+                <div class="buy-house-spokane-description spokane-house-for-sale-description">
+                    <h1 class="buy-house-spokane-heading spokane-house-for-sale-heading">Let Us Buy Your Spokane House
+                        For Sale
+                    </h1>
+                    <p class="buy-house-spokane-paragraph">
+                        Some home sellers have the luxury of time waiting for the best offer, while others have the
+                        luxury of money to trust a realtor. But many don’t have either. The Easy Home Buyer is on the
+                        side of those who need to sell their house fast and get cash in return. We hear every “I need to
+                        sell my house fast Spokane” and do our best to make it happen.
+                    </p>
+                    <p class="buy-house-spokane-paragraph">Traditionally, selling a house can be an intimidating and
+                        time-consuming process. You must find a qualified realtor and then wait for them to find a
+                        buyer. You must also ensure your house is in perfect condition before it goes on the market. As
+                        a result, you’ll have to invest time and money into it before selling. What if you don’t have
+                        the time and resources to do all this? That’s where The Easy Home Buyer comes in!
+                    </p>
+                    <p class="buy-house-spokane-paragraph">Unlike traditional real estate agents, we don’t need to list
+                        your Spokane home on the market. We buy it as is, and you can surely get a fair cash offer. Your
+                        house has value, and we’re here to help you get the most out of it.
+                    </p>
+                    <p class="buy-house-spokane-paragraph">
+                        Your reason for selling your house is already hard enough. We won’t let the selling process make
+                        things even harder.
+                    </p>
+                </div>
+                <div class="areas-we-serve-wrapper">
+                    <h1 class="areas-we-serve-heading">Areas We Serve</h1>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Spokane, Washington</p>
+                    </div>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Spokane Valley, Washington</p>
+                    </div>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Athol, Idaho</p>
+                    </div>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Hayden, Idaho</p>
+                    </div>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Post Falls, Idaho</p>
+                    </div>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Sandpoint, Idaho</p>
+                    </div>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Coeur d’Alene, Idaho</p>
+                    </div>
+                    <div class="areas-we-serve-points">
+                        <img width="35px" src="~/assets/images/check-big-svgrepo-com.svg">
+                        <p class="areas-we-serve-points-paragraph">Rathdrum, Idaho</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="many-people-cannot-be-wrong-section">
+        <div class="container-fluid">
+            <div class="buy-house-spokane-container many-people-cannot-be-wrong-container">
+                <div class="buy-house-spokane-description">
+                    <h1 class="common-heading sell-your-house-heading fs-1">
+                        So Many People Can’t Be Wrong
+                    </h1>
+                    <p class="buy-house-spokane-paragraph text-white">Everything 100% FREE. No Obligation to Accept. Get
+                        an Offer – You Can Always Say
+                        “No”!
+                    </p>
+                </div>
+                <div class="get-your-cash-offer-button">
+                    <button class="get-your-cash-free-btn free-offer-header-btn">GET YOUR CASH OFFER</button>
+                </div>
             </div>
         </div>
     </section>

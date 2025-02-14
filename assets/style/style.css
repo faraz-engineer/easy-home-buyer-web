@@ -501,7 +501,156 @@ header {
     outline: none;
 }
 
+.Buy-Houses-Spokane-section {
+    background-color: rgb(54 180 230 / 10%);
+    font-family: 'sweet-sans-pro';
+}
 
+.buy-house-spokane-container {
+    display: flex;
+    align-items: center;
+    padding: 60px 30px;
+    justify-content: space-between;
+}
+
+.buy-house-spokane-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 58%;
+    align-items: baseline;
+}
+
+.buy-house-spokane-heading {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 800;
+    color: #151f4b;
+}
+
+.buy-house-spokane-paragraph {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #151f4b;
+}
+
+.buy-house-spokane-link {
+    color: #151f4b;
+    transition: 0.2s ease;
+}
+
+.buy-house-spokane-link:hover {
+    color: #36b4e6;
+    text-decoration: none;
+}
+
+.buy-house-spokane-image {
+    max-width: 450px;
+}
+
+.spokane-house-for-sale-section {
+    font-family: 'sweet-sans-pro';
+}
+
+.spokane-house-for-sale-heading {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.spokane-house-for-sale-description {
+    max-width: 66.5%;
+}
+
+.areas-we-serve-heading {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.areas-we-serve-points {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.areas-we-serve-points-paragraph {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #151f4b;
+}
+
+.spokane-house-for-sale-container {
+    align-items: unset;
+    justify-content: space-around;
+}
+
+.many-people-cannot-be-wrong-section {
+    background-image: linear-gradient(105deg, rgba(54, 180, 230, 0.8) 12%, rgba(54, 180, 230, 0.8) 77%), url(~/assets/images/we-buy-ugly-houses-washington.jpg);
+    font-family: 'sweet-sans-pro';
+    background-position: center;
+    background-size: cover;
+}
+
+.many-people-cannot-be-wrong-container {
+    justify-content: space-around;
+}
+
+.get-your-cash-free-btn {
+    font-size: 18px;
+    font-weight: 400;
+    width: 290px;
+    height: 55px;
+    background-color: white;
+    color: #151f4b;
+    letter-spacing: 1px;
+}
+.get-your-cash-free-btn:hover {
+    background-color: #151f4b;
+    color: white;
+}
+.home-selling-solution-section {
+    font-family: 'sweet-sans-pro';
+}
+.home-selling-solution-description {
+    padding-top: 60px;
+}
+
+.traditional-home-selling-box {
+    background-color: #151f4b;
+    padding: 30px 50px;
+    min-width: 485px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.traditional-box-heading {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.home-selling-solution-points {
+    border-bottom: 1px solid rgb(68 68 68 / 26%);
+}
+
+.easy-home-selling-box {
+    background-color: #36b4e6;
+    padding: 45px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    min-width: 485px;
+}
+.easy-home-selling-points {
+    border-bottom: 1px solid rgb(215 240 255 / 50%);
+}
+.sell-my-house-fast-point-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 footer {
     background-color: #151f4b;
     font-family: 'sweet-sans-pro';
@@ -514,9 +663,11 @@ footer {
 .footer-input-wrapper {
     width: 60%;
 }
+
 .footer-form input:focus {
     outline: none;
 }
+
 .footer-wrapper {
     display: flex;
     align-items: center;
@@ -565,26 +716,32 @@ footer {
     margin: 0 10px;
     transition: 0.3s ease;
 }
+
 .footer-links a:hover {
     color: white;
 }
+
 .footer-copyright {
     margin: 0;
     text-align: center;
     color: white;
 }
+
 .copy-right-line {
     padding: 20px 0;
 }
+
 .footer-address a:hover {
     text-decoration: none;
     color: #007BFF;
 }
+
 .footer-input-paragraph {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
 }
+
 .footer-heading {
     color: #36b4e6;
 }
