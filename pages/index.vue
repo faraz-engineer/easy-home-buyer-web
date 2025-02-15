@@ -30,8 +30,7 @@ onMounted(() => {
                     </div>
                     <div class="sell-my-house-reviews-image">
                         <img style="width: 150px;" src="~assets/images/google-review-cash-home-buyer-5.webp">
-                        <img style="width: 200px;"
-                             src="~assets/images/testimonials-best-sell-my-house-fast-company.webp">
+                        <img style="width: 200px;" src="~assets/images/testimonials-best-sell-my-house-fast-company.webp">
                     </div>
                 </div>
             </div>
@@ -345,29 +344,37 @@ onMounted(() => {
                         <div class="sell-my-house-fast-point">
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                               <p class="fs-5 fw-bold text-white">Reason 1:<span class="areas-we-serve-points-paragraph text-white">Job Relocation</span></p>
+                                <p class="fs-5 fw-bold text-white">Reason 1:<span
+                                    class="areas-we-serve-points-paragraph text-white">Job Relocation</span></p>
                             </div>
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 2:<span class="areas-we-serve-points-paragraph text-white">Avoid Foreclosure</span></p>
+                                <p class="fs-5 fw-bold text-white">Reason 2:<span
+                                    class="areas-we-serve-points-paragraph text-white">Avoid Foreclosure</span></p>
                             </div>
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 3:<span class="areas-we-serve-points-paragraph text-white">Selling Unwanted Rentals</span></p>
+                                <p class="fs-5 fw-bold text-white">Reason 3:<span
+                                    class="areas-we-serve-points-paragraph text-white">Selling Unwanted Rentals</span>
+                                </p>
                             </div>
                         </div>
                         <div class="sell-my-house-fast-point">
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 4:<span class="areas-we-serve-points-paragraph text-white">Too Many Costly Repairs</span></p>
+                                <p class="fs-5 fw-bold text-white">Reason 4:<span
+                                    class="areas-we-serve-points-paragraph text-white">Too Many Costly Repairs</span>
+                                </p>
                             </div>
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 5:<span class="areas-we-serve-points-paragraph text-white"> Vacant Property</span></p>
+                                <p class="fs-5 fw-bold text-white">Reason 5:<span
+                                    class="areas-we-serve-points-paragraph text-white"> Vacant Property</span></p>
                             </div>
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 6:<span class="areas-we-serve-points-paragraph text-white">Inherited A House</span></p>
+                                <p class="fs-5 fw-bold text-white">Reason 6:<span
+                                    class="areas-we-serve-points-paragraph text-white">Inherited A House</span></p>
                             </div>
                         </div>
                     </div>

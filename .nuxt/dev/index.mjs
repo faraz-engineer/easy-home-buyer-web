@@ -2442,6 +2442,18 @@ const sources$1 = [
         },
         "urls": [
             {
+                "loc": "/about-us"
+            },
+            {
+                "loc": "/blog"
+            },
+            {
+                "loc": "/contact-us"
+            },
+            {
+                "loc": "/faq"
+            },
+            {
                 "loc": "/"
             }
         ],

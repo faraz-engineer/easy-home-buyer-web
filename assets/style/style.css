@@ -589,7 +589,7 @@ header {
 }
 
 .many-people-cannot-be-wrong-section {
-    background-image: linear-gradient(105deg, rgba(54, 180, 230, 0.8) 12%, rgba(54, 180, 230, 0.8) 77%), url(~/assets/images/we-buy-ugly-houses-washington.jpg);
+    background-image: linear-gradient(105deg, rgba(54, 180, 230, 0.8) 12%, rgba(54, 180, 230, 0.8) 77%), url("~/assets/images/we-buy-ugly-houses-washington.jpg");
     font-family: 'sweet-sans-pro';
     background-position: center;
     background-size: cover;
@@ -608,13 +608,16 @@ header {
     color: #151f4b;
     letter-spacing: 1px;
 }
+
 .get-your-cash-free-btn:hover {
     background-color: #151f4b;
     color: white;
 }
+
 .home-selling-solution-section {
     font-family: 'sweet-sans-pro';
 }
+
 .home-selling-solution-description {
     padding-top: 60px;
 }
@@ -626,12 +629,14 @@ header {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
 .traditional-box-heading {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
     padding-bottom: 10px;
 }
+
 .home-selling-solution-points {
     border-bottom: 1px solid rgb(68 68 68 / 26%);
 }
@@ -643,14 +648,203 @@ header {
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
     min-width: 485px;
 }
+
 .easy-home-selling-points {
     border-bottom: 1px solid rgb(215 240 255 / 50%);
 }
+
 .sell-my-house-fast-point-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.blog-section {
+    background-image: linear-gradient(180deg, rgb(54 180 230 / 50%) 0%, rgb(54 180 230 / 50%)), url("~/assets/images/spokane-cash-home-buyer.jpg");
+    background-size: cover;
+    background-position: center top;
+    font-family: 'sweet-sans-pro';
+}
+
+.blog-heading {
+    padding: 100px 0 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-heading h1 {
+    font-size: 48px;
+}
+
+.blog-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.blog-content-section {
+    font-family: 'sweet-sans-pro';
+}
+
+.blog-date-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog-date {
+    background-color: #36b4e6;
+    width: 80px;
+}
+
+.blog-icon {
+    background-color: #f2f3f5;
+    width: 80px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-content-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 10px;
+}
+
+.blog-image-link {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.blog-content-description {
+    max-width: 62%;
+}
+
+.read-more-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.read-more-link:hover {
+    filter: brightness(0) saturate(100%) invert(47%) sepia(50%) saturate(492%) hue-rotate(163deg);
+}
+
+.blog-content-container {
+    border-bottom: 1px solid #e7e6e6;
+}
+
+.faq-question-section {
+    font-family: 'sweet-sans-pro';
+}
+
+.faq-points {
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+
+.choose-easy-home-buyer-box {
+    max-width: 460px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-height: 520px;
+}
+
+.have-some-question-heading {
+    font-size: 24px;
+    font-weight: 400;
+    color: #36b4e6;
+}
+
+.faq-question-link {
+    font-size: 18px;
+    font-weight: 800;
+    color: #151f4b;
+    cursor: pointer;
+    display: flex;
+    align-items: self-end;
+    gap: 15px;
+    transition: 0.2s ease;
+    padding-bottom: 20px;
+}
+
+.faq-question-link:hover {
+    color: #293b91;
+}
+
+.faq-question-point {
+    padding-bottom: 10px;
+}
+
+.faq-paragraph {
+    transition: all 0.3s ease-in-out;
+}
+
+.choose-easy-home-buyer {
+    padding: 30px 0;
+}
+
+.choose-easy-home-buyer-heading {
+    font-size: 32px;
+    font-weight: 800;
+    color: #151f4b;
+}
+
+.choose-easy-home-buyer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.faq-question-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 55px;
+}
+
+.about-us-section {
+    background-image: linear-gradient(180deg, rgba(21, 31, 75, 0.7) 0%, rgba(21, 31, 75, 0.7) 70%), url(~/assets/images/about-us-background.jpg);
+    background-position: center;
+}
+
+.about-us {
+    font-family: 'sweet-sans-pro';
+}
+
+.because-of-penny-heading {
+    font-size: 28px;
+    font-weight: 800;
+    color: #151f4b;
+}
+.penny-reviews-wrapper {
+    position: relative;
+}
+.penny-reviews-content {
+    background-color: rgb(54 180 230 / 10%);
+    padding: 1.25rem 1.6rem;
+}
+.penny-reviews-wrapper img {
+    position: absolute;
+    bottom: 11px;
+    left: 20px;
+}
+.penny-reviews {
+    padding-top: 15px;
+}
+.humble-beginning-image img {
+    width: 450px;
+}
+.jeff-p-reviews {
+    padding-top: 30px;
+}
+
 footer {
     background-color: #151f4b;
     font-family: 'sweet-sans-pro';
@@ -673,6 +867,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+
 
 .footer-social-icon {
     display: flex;
