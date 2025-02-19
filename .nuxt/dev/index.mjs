@@ -2454,7 +2454,13 @@ const sources$1 = [
                 "loc": "/faq"
             },
             {
+                "loc": "/how-its-work"
+            },
+            {
                 "loc": "/"
+            },
+            {
+                "loc": "/sell-your-homes"
             }
         ],
         "sourceType": "app"

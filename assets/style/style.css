@@ -451,7 +451,7 @@ header {
 
 .easy-way-to-sell-house-points-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 60px;
@@ -753,7 +753,9 @@ header {
     max-width: 460px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    max-height: 520px;
+    min-height: 520px;
+    background-color: white;
+    height: 520px;
 }
 
 .have-some-question-heading {
@@ -823,26 +825,195 @@ header {
     font-weight: 800;
     color: #151f4b;
 }
+
 .penny-reviews-wrapper {
     position: relative;
 }
+
 .penny-reviews-content {
     background-color: rgb(54 180 230 / 10%);
     padding: 1.25rem 1.6rem;
 }
+
 .penny-reviews-wrapper img {
     position: absolute;
     bottom: 11px;
     left: 20px;
 }
+
 .penny-reviews {
     padding-top: 15px;
 }
+
 .humble-beginning-image img {
     width: 450px;
 }
+
 .jeff-p-reviews {
     padding-top: 30px;
+}
+
+.easy-core-value-section {
+    font-family: 'sweet-sans-pro';
+}
+
+.about-companies-sell-house-section {
+    background-color: #36b4e6;
+}
+
+.selling-your-home-section {
+    font-family: 'sweet-sans-pro';
+}
+
+.selling-your-home-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.selling-your-home-box {
+    box-shadow: 0 0 10px 5px rgba(68, 68, 68, 0.10);
+    padding: 30px;
+    margin: 0 10px;
+    max-width: 47%;
+    min-height: 350px;
+}
+
+.selling-your-home-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.selling-your-home-heading {
+    font-size: 24px;
+    font-weight: 800;
+    color: #36b4e6;
+    margin: 0;
+}
+
+.selling-your-home-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #151f4b;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.contact-us-section {
+    font-family: 'sweet-sans-pro';
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.51) 0%, #ffffff 70%), url(https://theeasyhomebuyer.com/wp-content/uploads/2023/03/companies-that-buy-houses-for-cash-spokane-scaled.jpg);
+}
+
+.contact-us-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 80px 30px 60px 30px;
+    justify-content: space-between;
+
+}
+
+.easy-home-buyer-heading {
+    font-size: 32px;
+    font-weight: 800;
+    color: #151f4b;
+    padding-bottom: 10px;
+}
+
+.google-location {
+    padding-top: 40px;
+}
+
+.contact-us-heading {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-heading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #36b4e6;
+}
+
+.contact-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4e57;
+    margin: 0;
+}
+
+.contact-us-link {
+    display: flex;
+    align-items: flex-start;
+    max-width: 58%;
+    padding: 10px 0;
+    gap: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #151f4b;
+}
+
+input:focus, textarea:focus {
+    border-color: #36b4e6;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.checkbox-container label {
+    color: #151f4b;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.checkbox-container input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.contact-us-form-box {
+    max-width: 540px;
+    background-color: rgb(255 255 255 / 80%);
+}
+.contact-form-heading {
+    color: #151f4b;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 footer {
