@@ -1,319 +1,222 @@
 @media only screen and (max-width: 1200px) {
-    #navigation ul {
-        display: none;
-    }
-
-    .navbar-user-link {
-        display: none;
-    }
-
-    .logo-name {
-        padding-left: 20px;
-    }
-
     .hamburger {
         display: block;
     }
-
-    .nav-open ul {
-        gap: 30px;
-        padding: 0 !important;
-        position: absolute;
-        background: #fff;
-        left: 0;
-        right: 0;
-        display: flex !important;
-        flex-direction: column;
-        top: 0;
+    .navbar-user-link {
+        display: none;
     }
-
-    .nav-open .navbar-user-link {
-        display: flex !important;
-        position: relative;
-        flex-direction: column;
-        gap: 20px;
-        top: 20px;
-        right: 75px;
+    .header-btn {
+        display: none;
     }
-
-    @media only screen and (max-width: 1050px) {
-        .loan-advisor-parent {
-            flex-direction: column;
-        }
-
-        .loan-advisor-description {
-            text-align: center;
-        }
-
-        .loan-advisor-user-information {
-            margin: 0 auto;
-        }
-
-        .loan-advisor-house {
-            margin: 0 auto;
-        }
-
-        .blog-card {
-            width: 48%;
-        }
+    .navbar {
+        display: none;
     }
-
-    .loan-program-description h3 {
-        font-size: 16px;
-    }
-
-    .loan-program-description p {
-        font-size: 14px;
-    }
-
-    .loan-program-points p {
-        font-size: 11px;
-    }
-
-    .images-link p {
-        text-align: center;
-    }
-
-    .close-btn {
-        display: block;
-        position: absolute;
-        top: 50px;
-        right: 24px;
-    }
-
-    .nav-open .header-wrapper {
-        display: flex;
-        align-items: center;
+    .header-container {
         justify-content: space-between;
-        margin: 40px 0px;
-        height: 100vh;
-    }
-
-    .nav-open ul {
-        align-items: center;
-        height: calc(100vh - 120px);
-        padding-top: 120px !important;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    .loan-advisor-description {
-        text-align: center;
-        margin: 0 auto;
+    .navbar-user-link {
+        display: none;
     }
-
-    .loan-advisor-user-information {
-        margin: 0 auto;
+    .header-btn {
+        display: none;
     }
-
-    .loan-advisor-house {
-        margin: 0 auto;
+    .navbar {
+        display: none;
     }
-
-    .loan-program {
-        width: 48%;
-
+    .header-container {
+        justify-content: space-between;
     }
-
-    .loan-fund-parent {
+    .content-box-container {
         flex-direction: column;
     }
-
-    .apply-parent {
+    .buy-house-spokane-container {
         flex-direction: column;
     }
-
-    .apply-description {
-        max-width: unset;
-        text-align: center;
+    .traditional-home-selling-box {
+        border-radius: 10px;
     }
-
-    .contact p {
-        justify-content: center;
+    .sell-my-house-fast-spokane-wrapper {
+        flex-direction: column;
+    }
+    .easy-way-to-sell-house-points-wrapper {
+        max-width: 100%;
+    }
+    .companies-sell-house-near-me-images img {
+        width: 40px;
+    }
+    .companies-sell-house-near-me span {
+        font-size: 12px;
+    }
+    .home-address-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .phone-no-input {
+        width: 100%;
+    }
+    .sell-your-house-heading {
+        font-size: 27px;
+    }
+    .sell-your-house-paragraph {
+        font-size: 22px;
+    }
+    .how-we-sell-house-fast-paragraph {
+        padding: 10px 0 0 0 !important;
+    }
+    .buy-house-spokane-description {
+        max-width: 100%;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-office-address {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-input-wrapper {
+        width: 100%;
+    }
+    .hamburger {
+        display: block;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .loan-advisor-house {
+    .navbar-user-link {
         display: none;
     }
-
-    .know-us-img {
+    .header-btn {
         display: none;
     }
-
-    .know-us-design-img {
+    .navbar {
         display: none;
     }
-
-    .know-us-parent {
-        justify-content: center;
+    .header-container {
+        justify-content: space-between;
     }
-
-    .heading {
-        max-width: unset;
-    }
-
-    .heading img {
-        padding: 30px 0px;
-    }
-
-    .images-link-parent {
-        flex-direction: column;
-        gap: 70px;
-    }
-
-    .default-parent {
+    .content-box-container {
         flex-direction: column;
     }
-
-    .footer-parent {
+    .buy-house-spokane-container {
         flex-direction: column;
-        gap: 30px;
     }
-
-    .loan-program {
-        width: 92%;
+    .traditional-home-selling-box {
+        border-radius: 10px;
     }
-
-    .default-description {
-        max-width: unset;
+    .sell-my-house-fast-spokane-wrapper {
+        flex-direction: column;
+    }
+    .easy-way-to-sell-house-points-wrapper {
+        max-width: 100%;
+    }
+    .companies-sell-house-near-me-images img {
+        width: 40px;
+    }
+    .companies-sell-house-near-me span {
+        font-size: 12px;
+    }
+    .home-address-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .phone-no-input {
+        width: 100%;
+    }
+    .sell-your-house-heading {
+        font-size: 27px;
+    }
+    .sell-your-house-paragraph {
+        font-size: 22px;
+    }
+    .how-we-sell-house-fast-paragraph {
+        padding: 10px 0 0 0 !important;
+    }
+    .buy-house-spokane-description {
+        max-width: 100%;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-office-address {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-input-wrapper {
+        width: 100%;
+    }
+    .hamburger {
+        display: block;
     }
 
 }
 
 @media only screen and (max-width: 576px) {
-    .loan-advisor-heading {
-        font-size: 20px;
+    .navbar-user-link {
+        display: none;
     }
-
-    .loan-advisor-paragraph {
-        font-size: 13px;
-        padding-top: 20px;
-        padding-bottom: 35px;
-
+    .header-btn {
+        display: none;
     }
-
-    .loan-program-parent {
-        justify-content: center;
+    .navbar {
+        display: none;
     }
-
-    .loan-fund-description h1 {
-        font-size: 25px;
+    .header-container {
+        justify-content: space-between;
     }
-
-    .loan-fund-description p {
-        font-size: 13px;
-        padding: 30px 0px;
-    }
-
-    .default-heading {
-        font-size: 25px;
-        padding: 30px 0px;
-    }
-
-    .default-paragraph {
-        font-size: 13px;
-    }
-
-    .rate-sheet-link {
-        padding: 30px 0px;
-    }
-
-    .footer-quick-links {
-        gap: 10px;
-    }
-
-    .footer-quick-links ul {
-        gap: 14px;
-    }
-
-    .footer-description {
-        gap: 20px;
-    }
-
-    .experience-parent h1 {
-        font-size: 20px;
-    }
-
-    .experience-parent i {
-        font-size: 11px;
-    }
-
-    .experience-parent p {
-        font-size: 13px;
-    }
-
-    .default-description {
-        max-width: unset;
-    }
-
-    .form-parent {
-        min-width: unset;
-    }
-
-    .form-group {
+    .content-box-container {
         flex-direction: column;
     }
-
-    .form-heading {
-        font-size: 14px;
-    }
-
-    .form-text,
-    .form-email,
-    .form-tel {
-        width: 88%;
-    }
-
-    .loan-advisor-user-information {
-        width: 97%;
-    }
-
-    .broker-form-text,
-    .broker-form-email,
-    .broker-form-tel {
-        width: 97%;
-    }
-
-    .submit-button {
-        width: 92%;
-    }
-
-    .common-heading {
-        font-size: 20px;
-    }
-
-    .loan-program {
-        width: 92%;
-    }
-
-    .loan-fund-img {
-        width: 100%;
-    }
-
-    .loan-fund-img img {
-        width: 100%;
-    }
-
-    .images-link-parent {
+    .buy-house-spokane-container {
         flex-direction: column;
-        gap: 70px;
     }
-
-    .property-form-text {
-        width: 97%;
+    .traditional-home-selling-box {
+        border-radius: 10px;
     }
-
-    .contact p {
-        font-size: 13px;
+    .sell-my-house-fast-spokane-wrapper {
+        flex-direction: column;
     }
-
-    .blog-card {
-        width: 97%;
+    .easy-way-to-sell-house-points-wrapper {
+        max-width: 100%;
     }
-
-    .investor-description img {
+    .companies-sell-house-near-me-images img {
+        width: 40px;
+    }
+    .companies-sell-house-near-me span {
+       font-size: 12px;
+    }
+    .home-address-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .phone-no-input {
         width: 100%;
     }
+  .sell-your-house-heading {
+      font-size: 27px;
+  }
+  .sell-your-house-paragraph {
+      font-size: 22px;
+  }
+  .how-we-sell-house-fast-paragraph {
+      padding: 10px 0 0 0 !important;
+  }
+  .buy-house-spokane-description {
+      max-width: 100%;
+  }
+  .footer-wrapper {
+      flex-direction: column;
+  }
+  .footer-office-address {
+      flex-direction: column;
+      gap: 10px;
+  }
+  .footer-input-wrapper {
+      width: 100%;
+  }
+  .hamburger {
+      display: block;
+  }
 }
