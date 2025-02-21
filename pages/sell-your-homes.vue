@@ -73,7 +73,7 @@
                 <div class="content-box-wrapper">
                     <div class="icon-with-heading">
                         <div class="content-icon">
-                            <img src="~assets/images/setting-gears-svgrepo-com.svg">
+                            <img src="~assets/images/mobile.svg">
                         </div>
                         <h1 class="content-box-heading">Click Here To See How It Works</h1>
                     </div>
@@ -87,7 +87,7 @@
                 <div class="content-box-wrapper">
                     <div class="icon-with-heading">
                         <div class="content-icon">
-                            <img src="~assets/images/comment-ellipsis-svgrepo-com.svg">
+                            <img src="~assets/images/file-pencil-alt-1-svgrepo-com.svg">
                         </div>
                         <h1 class="content-box-heading">Get to Know Our Company</h1>
                     </div>
@@ -322,47 +322,95 @@
                     <img width="368px" src="~assets/images/cash-home-buyer-spokane.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
-                    <h1 class="sell-my-house-fast-spokane-heading">Why We Do What We Do</h1>
-                    <p class="sell-my-house-fast-spokane-paragraph">The Easy Home Buyer believes a house can mean so
-                        much more than just a structure made of wood and concrete. But at the same time, life can be
-                        unpredictable. So, whenever you need to let go of your house quickly and easily, we can help.
+                    <h1 class="sell-my-house-fast-spokane-heading">Sell Your House Fast in Spokane WA</h1>
+                    <p class="sell-my-house-fast-spokane-paragraph">
+                        When you choose The Easy Home Buyer the process is just EASY!
                     </p>
                     <div class="sell-my-house-fast-point-wrapper">
                         <div class="sell-my-house-fast-point">
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 1:<span
-                                    class="areas-we-serve-points-paragraph text-white">Job Relocation</span></p>
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                   Mike sold to us because his house had flood damage and extensive repairs
+                               </span>
                             </div>
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 2:<span
-                                    class="areas-we-serve-points-paragraph text-white">Avoid Foreclosure</span></p>
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                    Deborah sold to us because she had relocated and didn’t want to pay 2 house payments
+                               </span>
                             </div>
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 3:<span
-                                    class="areas-we-serve-points-paragraph text-white">Selling Unwanted Rentals</span>
-                                </p>
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                   John sold to us because the home was going to be auctioned in 2 weeks
+                               </span>
                             </div>
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                  Jaymie sold to us because it was holding up a very lengthy divorce and the tenant trashed the place
+                               </span>
+                            </div>
+
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                  Louise sold to us because they had a home that sat vacant for years, intending to fix it up but got too busy
+                               </span>
+                            </div>
+
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                  James sold to us because he wanted to move within weeks to be with family and didn’t want to pay real estate commissions
+                               </span>
+                            </div>
+
                         </div>
                         <div class="sell-my-house-fast-point">
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 4:<span
-                                    class="areas-we-serve-points-paragraph text-white">Too Many Costly Repairs</span>
-                                </p>
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                  John sold to us because his renters moved out and he didn’t have the money to fix all the damages
+                               </span>
                             </div>
+
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 5:<span
-                                    class="areas-we-serve-points-paragraph text-white"> Vacant Property</span></p>
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                  Erin sold to us because her house was heavily damaged and had foundation issues – it needed extensive repair
+                               </span>
                             </div>
+
                             <div class="areas-we-serve-points">
                                 <img width="30px" src="~/assets/images/check.svg">
-                                <p class="fs-5 fw-bold text-white">Reason 6:<span
-                                    class="areas-we-serve-points-paragraph text-white">Inherited A House</span></p>
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                   Penny sold to us because her mother passed away and she wanted to move within 3 weeks to be with family
+                               </span>
                             </div>
+
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                  Todd sold to us because he didn’t want to pay real estate commissions or fix up his rental
+                               </span>
+                            </div>
+
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                  Steve sold to us because they needed to liquidate a rental fast to help out a family member
+                               </span>
+                            </div>
+
+                            <div class="areas-we-serve-points">
+                                <img width="30px" src="~/assets/images/check.svg">
+                                <span class="areas-we-serve-points-paragraph text-white">
+                                   Arin sold to us because she was going into foreclosure
+                               </span>
+                            </div>
+
                         </div>
 
                     </div>
@@ -460,11 +508,12 @@
             <div class="buy-house-spokane-container many-people-cannot-be-wrong-container">
                 <div class="buy-house-spokane-description">
                     <h1 class="common-heading sell-your-house-heading fs-1">
-                        So Many People Can’t Be Wrong
+                        Get Your FREE Cash Offer in Minutes. Get Started Now…
                     </h1>
-                    <p class="buy-house-spokane-paragraph text-white">Everything 100% FREE. No Obligation to Accept. Get
-                        an Offer – You Can Always Say
-                        “No”!
+                    <p class="buy-house-spokane-paragraph text-white">We buy houses in ANY CONDITION in Coeur d’Alene Idaho and neighboring Spokane, WA. There are no commissions or fees and no obligation whatsoever. Start by giving us a bit of information about your property or call
+                        <a class="buy-house-spokane-link text-white" href="#" >
+                        (509) 530-2088…
+                        </a>
                     </p>
                 </div>
                 <div class="get-your-cash-offer-button">

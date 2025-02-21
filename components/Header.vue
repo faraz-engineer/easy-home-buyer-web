@@ -16,9 +16,9 @@ import {ref} from 'vue';
             </div>
             <div class="navbar">
                 <ul>
-                    <li><a class="navbar-user-link" href="#">About Us</a></li>
-                    <li><a class="navbar-user-link" href="#">FAQ</a></li>
-                    <li><a class="navbar-user-link" href="#">Contact</a></li>
+                    <li><a class="navbar-user-link" href="/about-us">About Us</a></li>
+                    <li><a class="navbar-user-link" href="/faq">FAQ</a></li>
+                    <li><a class="navbar-user-link" href="/contact-us">Contact</a></li>
                 </ul>
             </div>
             <div class="header-btn">
