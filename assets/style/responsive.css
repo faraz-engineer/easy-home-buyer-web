@@ -1,152 +1,181 @@
 @media only screen and (max-width: 1200px) {
-    .hamburger {
+    .navbar-user-link, .header-btn {
+        display: none;
+    }
+
+    .show-menu {
         display: block;
     }
-    .navbar-user-link {
-        display: none;
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: 30px;
     }
-    .header-btn {
-        display: none;
-    }
-    .navbar {
-        display: none;
-    }
-    .header-container {
-        justify-content: space-between;
-    }
+
+
 }
 
 @media only screen and (max-width: 992px) {
-    .navbar-user-link {
+    .navbar-user-link, .header-btn {
         display: none;
     }
-    .header-btn {
-        display: none;
+
+    .show-menu {
+        display: block;
     }
-    .navbar {
-        display: none;
-    }
-    .header-container {
-        justify-content: space-between;
-    }
+
     .content-box-container {
         flex-direction: column;
     }
+
     .buy-house-spokane-container {
         flex-direction: column;
     }
+
     .traditional-home-selling-box {
         border-radius: 10px;
     }
+
     .sell-my-house-fast-spokane-wrapper {
         flex-direction: column;
     }
+
     .easy-way-to-sell-house-points-wrapper {
         max-width: 100%;
     }
+
     .companies-sell-house-near-me-images img {
         width: 40px;
     }
+
     .companies-sell-house-near-me span {
         font-size: 12px;
     }
+
     .home-address-input {
         width: 100%;
         margin-bottom: 10px;
     }
+
     .phone-no-input {
         width: 100%;
     }
+
     .sell-your-house-heading {
         font-size: 27px;
     }
+
     .sell-your-house-paragraph {
         font-size: 22px;
     }
+
     .how-we-sell-house-fast-paragraph {
         padding: 10px 0 0 0 !important;
     }
+
     .buy-house-spokane-description {
         max-width: 100%;
     }
+
     .footer-wrapper {
         flex-direction: column;
     }
+
     .footer-office-address {
         flex-direction: column;
         gap: 10px;
     }
+
     .footer-input-wrapper {
         width: 100%;
     }
-    .hamburger {
-        display: block;
-    }
+
 }
 
 @media only screen and (max-width: 768px) {
     .navbar-user-link {
         display: none;
     }
+
     .header-btn {
         display: none;
     }
+
     .navbar {
         display: none;
     }
+
     .header-container {
         justify-content: space-between;
     }
+
     .content-box-container {
         flex-direction: column;
     }
+
     .buy-house-spokane-container {
         flex-direction: column;
     }
+
     .traditional-home-selling-box {
         border-radius: 10px;
     }
+
     .sell-my-house-fast-spokane-wrapper {
         flex-direction: column;
     }
+
     .easy-way-to-sell-house-points-wrapper {
         max-width: 100%;
     }
+
     .companies-sell-house-near-me-images img {
         width: 40px;
     }
+
     .companies-sell-house-near-me span {
         font-size: 12px;
     }
+
     .home-address-input {
         width: 100%;
         margin-bottom: 10px;
     }
+
     .phone-no-input {
         width: 100%;
     }
+
     .sell-your-house-heading {
         font-size: 27px;
     }
+
     .sell-your-house-paragraph {
         font-size: 22px;
     }
+
     .how-we-sell-house-fast-paragraph {
         padding: 10px 0 0 0 !important;
     }
+
     .buy-house-spokane-description {
         max-width: 100%;
     }
+
     .footer-wrapper {
         flex-direction: column;
     }
+
     .footer-office-address {
         flex-direction: column;
         gap: 10px;
     }
+
     .footer-input-wrapper {
         width: 100%;
     }
+
     .hamburger {
         display: block;
     }
@@ -157,66 +186,86 @@
     .navbar-user-link {
         display: none;
     }
+
     .header-btn {
         display: none;
     }
+
     .navbar {
         display: none;
     }
+
     .header-container {
         justify-content: space-between;
     }
+
     .content-box-container {
         flex-direction: column;
     }
+
     .buy-house-spokane-container {
         flex-direction: column;
     }
+
     .traditional-home-selling-box {
         border-radius: 10px;
     }
+
     .sell-my-house-fast-spokane-wrapper {
         flex-direction: column;
     }
+
     .easy-way-to-sell-house-points-wrapper {
         max-width: 100%;
     }
+
     .companies-sell-house-near-me-images img {
         width: 40px;
     }
+
     .companies-sell-house-near-me span {
-       font-size: 12px;
+        font-size: 12px;
     }
+
     .home-address-input {
         width: 100%;
         margin-bottom: 10px;
     }
+
     .phone-no-input {
         width: 100%;
     }
-  .sell-your-house-heading {
-      font-size: 27px;
-  }
-  .sell-your-house-paragraph {
-      font-size: 22px;
-  }
-  .how-we-sell-house-fast-paragraph {
-      padding: 10px 0 0 0 !important;
-  }
-  .buy-house-spokane-description {
-      max-width: 100%;
-  }
-  .footer-wrapper {
-      flex-direction: column;
-  }
-  .footer-office-address {
-      flex-direction: column;
-      gap: 10px;
-  }
-  .footer-input-wrapper {
-      width: 100%;
-  }
-  .hamburger {
-      display: block;
-  }
+
+    .sell-your-house-heading {
+        font-size: 27px;
+    }
+
+    .sell-your-house-paragraph {
+        font-size: 22px;
+    }
+
+    .how-we-sell-house-fast-paragraph {
+        padding: 10px 0 0 0 !important;
+    }
+
+    .buy-house-spokane-description {
+        max-width: 100%;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-office-address {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-input-wrapper {
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }

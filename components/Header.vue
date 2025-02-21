@@ -1,6 +1,11 @@
 <script setup>
 
 import {ref} from 'vue';
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+    isMenuOpen.value = !isMenuOpen.value;
+};
 
 </script>
 
@@ -16,18 +21,19 @@ import {ref} from 'vue';
             </div>
             <div class="navbar">
                 <ul>
-                    <li><a class="navbar-user-link" href="/about-us">About Us</a></li>
-                    <li><a class="navbar-user-link" href="/faq">FAQ</a></li>
-                    <li><a class="navbar-user-link" href="/contact-us">Contact</a></li>
+                    <li><a class="navbar-user-link" :class="{ 'show-menu': isMenuOpen }" href="/about-us">About Us</a></li>
+                    <li><a class="navbar-user-link" :class="{ 'show-menu': isMenuOpen }" href="/faq">FAQ</a></li>
+                    <li><a class="navbar-user-link" :class="{ 'show-menu': isMenuOpen }" href="/contact-us">Contact</a></li>
                 </ul>
             </div>
-            <div class="header-btn">
+            <div class="header-btn" :class="{ 'show-menu': isMenuOpen }">
                 <button class="free-offer-header-btn">
                     GET MY FREE OFFER
                 </button>
             </div>
-            <div class="hamburger">
-                <img width="32px" src="~/assets/images/hamburger-svgrepo-com.svg">
+            <div class="hamburger" @click="toggleMenu">
+                <img v-if="!isMenuOpen" width="32px" src="~/assets/images/hamburger-svgrepo-com.svg">
+                <img  v-else width="50px" src="~/assets/images/cross.svg">
             </div>
         </div>
     </header>

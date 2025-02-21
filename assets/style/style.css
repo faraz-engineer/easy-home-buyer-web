@@ -1117,3 +1117,24 @@ footer {
 .faq-question-how-its-work {
     padding-bottom: 60px;
 }
+.minus-icon {
+    position: relative;
+}
+.faq-slide-enter-active, .faq-slide-leave-active {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.faq-slide-enter-from, .faq-slide-leave-to {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.show-menu {
+    display: block;
+}
+
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+}

@@ -65,13 +65,13 @@
                     </div>
                 </div>
                 <div class="footer-links">
-                    <a href="/index">Home Page</a>
-                    <a href="/about-us.vue"> About Us</a>
-                    <a href="/sell-your-homes.vue">Sell Your Homes</a>
+                    <a href="/">Home Page</a>
+                    <a href="/about-us"> About Us</a>
+                    <a href="/sell-your-homes">Sell Your Homes</a>
                     <a href="/faq">FAQ</a>
-                    <a href="/how-its-work.vue">How It Works</a>
-                    <a href="/blog.vue"> Blog</a>
-                    <a href="/contact-us.vue">Contact</a>
+                    <a href="/how-its-work">How It Works</a>
+                    <a href="/blog"> Blog</a>
+                    <a href="/contact-us">Contact</a>
                 </div>
                 <div class="footer-copyright">
                     <p class="footer-address">The Easy Home buyer is a cash home buyer that wants to help your family
