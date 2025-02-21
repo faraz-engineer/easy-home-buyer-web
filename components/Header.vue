@@ -27,6 +27,7 @@ const toggleMenu = () => {
                 </ul>
             </div>
             <div class="header-btn" :class="{ 'show-menu': isMenuOpen }">
+
                 <button class="free-offer-header-btn">
                     GET MY FREE OFFER
                 </button>
