@@ -131,7 +131,7 @@ onMounted(() => {
         <div class="container-fluid">
             <div class="sell-my-house-fast-spokane-wrapper">
                 <div class="house-buyer-team-image">
-                    <img src="~assets/images/the-easy-home-buyer-team.jpg">
+                    <img class="img-fluid" src="~assets/images/the-easy-home-buyer-team.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
                     <h1 class="sell-my-house-fast-spokane-heading">Sell Your Spokane House Fast and Stress Free!</h1>
@@ -326,7 +326,7 @@ onMounted(() => {
         <div class="container-fluid">
             <div class="sell-my-house-fast-spokane-wrapper">
                 <div class="house-buyer-team-image">
-                    <img src="~assets/images/cash-home-buyer-spokane.jpg">
+                    <img class="img-fluid" src="~assets/images/cash-home-buyer-spokane.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
                     <h1 class="sell-my-house-fast-spokane-heading">Why We Do What We Do</h1>

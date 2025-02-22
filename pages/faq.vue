@@ -230,9 +230,8 @@ const toggleVisibility = () => {
                 <div class="choose-easy-home-buyer-box">
                     <div class="choose-easy-home-buyer-wrapper">
                         <div class="sell-my-house-reviews-image">
-                            <img style="width: 150px;" src="~assets/images/google-review-cash-home-buyer-5.webp">
-                            <img style="width: 200px;"
-                                 src="~assets/images/testimonials-best-sell-my-house-fast-company.webp">
+                            <img class="img-fluid" src="~assets/images/google-review-cash-home-buyer-5.webp">
+                            <img class="img-fluid" src="~assets/images/testimonials-best-sell-my-house-fast-company.webp">
                         </div>
                         <div class="choose-easy-home-buyer">
                             <h1 class="choose-easy-home-buyer-heading">
@@ -264,6 +263,75 @@ const toggleVisibility = () => {
             </div>
         </div>
     </section>
+
+    <section class="washington-property-address-section">
+        <div class="container-fluid">
+            <div class="how-we-sell-house-fast-wrapper the-easy-way-to-sell-house-wrapper">
+                <h1 class="common-heading how-we-sell-house-fast-heading" style="color: black">
+                    ENTER THE WASHINGTON PROPERTY ADDRESS BELOW
+                </h1>
+                <p class="how-we-sell-house-fast-paragraph">
+                    TO GET YOUR FREE CASH OFFER
+                </p>
+            </div>
+            <div class="washington-property-address-wrapper">
+                <form>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="text" placeholder="Property Address *">
+                    </div>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="text" placeholder="Name *">
+                    </div>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="text" placeholder="Email *">
+                    </div>
+                    <div class="washington-property-address-input">
+                        <input class="property-form-input" type="tel" placeholder="Phone *">
+                    </div>
+                    <div class="sell-my-house-fast-spokane-btn">
+                        <button class="free-offer-header-btn">
+                            GET YOUR CASH OFFER
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="sell-your-house-with-stress-free-section bg-white">
+        <div class="container-fluid">
+            <div class="sell-my-house-fast-spokane-wrapper">
+                <div class="sell-my-house-fast-spokane-description">
+                    <h1 class="sell-my-house-fast-spokane-heading faq-sell-my-house-fast">Still have some more
+                        questions?</h1>
+                    <p class="sell-my-house-fast-spokane-paragraph faq-sell-my-house-fast-paragraph">As a homeowner,
+                        selling an unwanted property can be a daunting task. That’s why many homeowners turn to real
+                        estate investors who offer cash for homes. If you’re considering this option, it’s important to
+                        do your research and find a reputable company that can help you get the best possible price for
+                        your property.
+                    </p>
+                    <p class="sell-my-house-fast-spokane-paragraph faq-sell-my-house-fast-paragraph">
+                        We specialize in helping homeowners sell unwanted properties for cash. Whether you’re dealing
+                        with a foreclosure, inherited property, or simply need to
+                        <a href="#" class="buy-house-spokane-link faq-link">
+                            sell my house fast Spokane
+                        </a>
+                        , we can help. Our team of experienced professionals can provide a no-hassle situation
+                        evaluation to help
+                        you understand your options and make an informed decision.
+                    </p>
+                    <p class="sell-my-house-fast-spokane-paragraph faq-sell-my-house-fast-paragraph">
+                        If you have any questions or would like to schedule a consultation with our team, please don’t
+                        hesitate to contact us. We’re here to help you navigate the complex world of real estate
+                        investing and ensure that you get the best possible outcome for your situation.
+                    </p>
+                </div>
+                <div class="house-buyer-team-image">
+                    <img class="img-fluid" src="~assets/images/the-easy-home-buyer-team.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 </template>
 

@@ -119,7 +119,7 @@
         <div class="container-fluid">
             <div class="sell-my-house-fast-spokane-wrapper">
                 <div class="house-buyer-team-image">
-                    <img src="~assets/images/the-easy-home-buyer-team.jpg">
+                    <img class="img-fluid" src="~assets/images/the-easy-home-buyer-team.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
                     <h1 class="sell-my-house-fast-spokane-heading">Sell Your Spokane House Fast and Stress Free!</h1>
@@ -319,7 +319,7 @@
         <div class="container-fluid">
             <div class="sell-my-house-fast-spokane-wrapper">
                 <div class="house-buyer-team-image">
-                    <img width="368px" src="~assets/images/cash-home-buyer-spokane.jpg">
+                    <img class="img-fluid" src="~assets/images/sell-my-house-for-cash-idaho.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
                     <h1 class="sell-my-house-fast-spokane-heading">Sell Your House Fast in Spokane WA</h1>

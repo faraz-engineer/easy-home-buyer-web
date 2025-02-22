@@ -109,7 +109,7 @@
         <div class="container-fluid">
             <div class="sell-my-house-fast-spokane-wrapper">
                 <div class="house-buyer-team-image">
-                    <img src="~assets/images/the-easy-home-buyer-team.jpg">
+                    <img class="img-fluid" src="~assets/images/the-easy-home-buyer-team.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
                     <h1 class="sell-my-house-fast-spokane-heading text-black">Connect With Us!</h1>
@@ -142,6 +142,7 @@
             </div>
         </div>
     </section>
+
 
 
 </template>

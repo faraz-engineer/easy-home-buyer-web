@@ -256,6 +256,7 @@ header {
     justify-content: center;
     padding: 60px 0;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .content-box-wrapper {
@@ -625,7 +626,7 @@ header {
 .traditional-home-selling-box {
     background-color: #151f4b;
     padding: 30px 50px;
-    min-width: 485px;
+    width: 485px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -646,7 +647,7 @@ header {
     padding: 45px 50px;
     border-radius: 10px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
-    min-width: 485px;
+    width: 485px;
 }
 
 .easy-home-selling-points {
@@ -750,13 +751,12 @@ header {
 }
 
 .choose-easy-home-buyer-box {
-    max-width: 460px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
     padding: 30px;
     min-height: 520px;
     background-color: white;
     height: 520px;
-}
+   }
 
 .have-some-question-heading {
     font-size: 24px;
@@ -1137,4 +1137,23 @@ footer {
 .hamburger {
     cursor: pointer;
     display: none;
+}
+
+.faq-sell-my-house-fast {
+    color: #36b4e6;
+}
+.faq-sell-my-house-fast-paragraph {
+  color: #151f4b;
+}
+.faq-link {
+    color: #151f4b !important;
+}
+.faq-link:hover {
+    color: #36b4e6 !important;
+}
+.sell-my-house-fast-spokane-description {
+    max-width: 790px;
+}
+.faq-question {
+    max-width: 45%;
 }
