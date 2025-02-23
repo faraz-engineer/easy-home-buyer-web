@@ -148,7 +148,7 @@
         <div class="container-fluid">
             <div class="sell-my-house-fast-spokane-wrapper">
                 <div class="house-buyer-team-image">
-                    <img src="~assets/images/the-easy-home-buyer-team.jpg">
+                    <img class="img-fluid" src="~assets/images/the-easy-home-buyer-team.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
                     <h1 class="sell-my-house-fast-spokane-heading">About Chad and Bree</h1>
@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 <div class="humble-beginning-image">
-                    <img src="~/assets/images/beginning-image.jpg">
+                    <img class="img-fluid" src="~/assets/images/beginning-image.jpg">
                 </div>
             </div>
         </div>

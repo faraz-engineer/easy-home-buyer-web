@@ -41,18 +41,13 @@ header {
     padding: 20px 40px;
 }
 
-.navbar ul {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
     list-style: none;
-    padding: 0;
     margin: 0;
-
-}
-
-.navbar {
     padding: 0 0 0 90px !important;
 }
 
@@ -756,7 +751,7 @@ header {
     min-height: 520px;
     background-color: white;
     height: 520px;
-   }
+}
 
 .have-some-question-heading {
     font-size: 24px;
@@ -1008,6 +1003,7 @@ textarea {
     max-width: 540px;
     background-color: rgb(255 255 255 / 80%);
 }
+
 .contact-form-heading {
     color: #151f4b;
     font-size: 22px;
@@ -1111,15 +1107,20 @@ footer {
 .footer-heading {
     color: #36b4e6;
 }
+
 .hamburger {
     display: none;
 }
+
 .faq-question-how-its-work {
     padding-bottom: 60px;
+    max-width: 100% !important;
 }
+
 .minus-icon {
     position: relative;
 }
+
 .faq-slide-enter-active, .faq-slide-leave-active {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -1142,18 +1143,58 @@ footer {
 .faq-sell-my-house-fast {
     color: #36b4e6;
 }
+
 .faq-sell-my-house-fast-paragraph {
-  color: #151f4b;
+    color: #151f4b;
 }
+
 .faq-link {
     color: #151f4b !important;
 }
+
 .faq-link:hover {
     color: #36b4e6 !important;
 }
+
 .sell-my-house-fast-spokane-description {
     max-width: 790px;
 }
+
 .faq-question {
     max-width: 45%;
+}
+
+.case-study-wrapper {
+    padding: 80px 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cas-study-heading {
+    margin: 0 75px;
+}
+
+.deep-dive-box {
+    background-color: rgb(54 180 230 / 10%);
+    border: 3px solid #36b4e6;
+    border-radius: 5px;
+    padding: 30px;
+}
+.scam-alert-box {
+    border: 3px solid #f90608;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fffbf4;
+    margin: 40px 0;
+}
+.scam-alert-heading {
+    color: #f90608;
+    text-align: center;
+    font-size: 24px;
+}
+.about-us-description {
+    max-width: 60%;
 }

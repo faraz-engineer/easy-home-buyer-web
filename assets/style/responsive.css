@@ -1,15 +1,30 @@
 @media only screen and (max-width: 1200px) {
 
-
 }
 
 @media only screen and (max-width: 992px) {
-    .navbar-user-link, .header-btn {
-        display: none;
+    .navbar {
+        display: none !important;
     }
 
     .show-menu {
-        display: block;
+        display: flex !important;
+        position: absolute !important;
+        top: 139px;
+        right: 0;
+        background-color: #151f4b;
+        width: 100%;
+        align-items: end !important;
+        transition: all 0.3s ease;
+        padding-right: 20px !important;
+        flex-direction: column;
+        gap: 20px !important;
+        justify-content: flex-end !important;
+    }
+
+    .navbar-user-link {
+        color: white;
+        padding: 10px 0;
     }
 
     .hamburger {
@@ -23,6 +38,7 @@
     .people-love-us-content-box-wrapper {
         width: 47%;
     }
+
     .buy-house-spokane-container {
         flex-direction: column;
         gap: 20px;
@@ -99,45 +115,37 @@
     .choose-easy-home-buyer-box {
         max-width: 100%;
     }
-    .contact-us-wrapper{
+
+    .contact-us-wrapper {
         flex-direction: column;
     }
+
     .the-easy-home-buyer-contact {
         width: 100%;
     }
+
     .google-location iframe {
         width: 330px;
     }
+
     .form-row {
         flex-direction: column;
     }
+
     .contact-us-form-box {
         margin-top: 20px;
     }
+
     .blog-content-description {
         max-width: 100%;
     }
+
     .blog-content-wrapper {
         flex-direction: column;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar-user-link {
-        display: none;
-    }
-
-    .header-btn {
-        display: none;
-    }
-
-    .navbar {
-        display: none;
-    }
-
-    .header-container {
-        justify-content: space-between;
-    }
 
     .phone-no-input {
         width: 100%;
@@ -170,10 +178,6 @@
 
     .footer-input-wrapper {
         width: 100%;
-    }
-
-    .hamburger {
-        display: block;
     }
 
     .faq-question-wrapper {
@@ -252,14 +256,28 @@
     .blog-heading {
         text-align: center;
     }
+
     .traditional-home-selling-box, .easy-home-selling-box {
         width: 370px;
     }
+
     .people-love-us-content-box-wrapper {
         width: 100%;
     }
+
     .sell-my-house-fast-point-wrapper {
         flex-direction: column;
     }
 
+    .header-btn {
+        display: none;
+    }
+
+    .selling-your-home-box {
+        max-width: 100%;
+    }
+
+    .about-us-description {
+        max-width: 100%;
+    }
 }

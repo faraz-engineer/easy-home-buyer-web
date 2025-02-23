@@ -1,6 +1,11 @@
 <script setup>
 
 import {ref} from 'vue';
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+    isMenuOpen.value = !isMenuOpen.value;
+};
 
 
 </script>
@@ -15,8 +20,8 @@ import {ref} from 'vue';
             <div class="header-logo">
                 <a href="#"><img class="img-fluid" src="~assets/images/the-easy-home-buyer-logo.webp"></a>
             </div>
-            <div class="navbar">
-                <ul>
+            <div class="navbar-links">
+                <ul class="navbar" :class="{ 'show-menu': isMenuOpen }">
                     <li><a class="navbar-user-link" href="/about-us">About Us</a></li>
                     <li><a class="navbar-user-link" href="/faq">FAQ</a></li>
                     <li><a class="navbar-user-link" href="/contact-us">Contact</a></li>
@@ -27,9 +32,9 @@ import {ref} from 'vue';
                     GET MY FREE OFFER
                 </button>
             </div>
-            <div class="hamburger">
-                <img width="32px" src="~/assets/images/hamburger-svgrepo-com.svg">
-                <img width="50px" src="~/assets/images/cross.svg">
+            <div class="hamburger"   @click="toggleMenu">
+                <img v-if="!isMenuOpen" width="32px" src="~/assets/images/hamburger-svgrepo-com.svg">
+                <img  v-else width="50px" src="~/assets/images/cross.svg">
             </div>
         </div>
     </header>

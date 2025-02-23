@@ -1,11 +1,14 @@
 <script setup>
 import {ref} from 'vue';
 
-const isOpen = ref(false);
-
-const toggleVisibility = () => {
-    isOpen.value = !isOpen.value;
-};
+const isOpen1 = ref(false);
+const isOpen2 = ref(false);
+const isOpen3 = ref(false);
+const isOpen4 = ref(false);
+const isOpen5 = ref(false);
+const isOpen6 = ref(false);
+const isOpen7 = ref(false);
+const isOpen8 = ref(false);
 
 
 </script>
@@ -35,13 +38,13 @@ const toggleVisibility = () => {
                         </p>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen1 = !isOpen1">
+                            <img v-if="!isOpen1" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph faq-paragraph">
+                            <p v-if="isOpen1" class="buy-house-spokane-paragraph faq-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
@@ -59,13 +62,13 @@ const toggleVisibility = () => {
                         </transition>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen2 = !isOpen2">
+                            <img v-if="!isOpen2" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph">
+                            <p v-if="isOpen2" class="buy-house-spokane-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
@@ -83,13 +86,13 @@ const toggleVisibility = () => {
                         </transition>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen3 = !isOpen3">
+                            <img v-if="!isOpen3" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph">
+                            <p v-if="isOpen3" class="buy-house-spokane-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
@@ -107,13 +110,13 @@ const toggleVisibility = () => {
                         </transition>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen4 = !isOpen4">
+                            <img v-if="!isOpen4" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph">
+                            <p v-if="isOpen4" class="buy-house-spokane-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
@@ -131,13 +134,13 @@ const toggleVisibility = () => {
                         </transition>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen5 = !isOpen5">
+                            <img v-if="!isOpen5" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph">
+                            <p v-if="isOpen5" class="buy-house-spokane-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
@@ -155,13 +158,13 @@ const toggleVisibility = () => {
                         </transition>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen6 = !isOpen6">
+                            <img v-if="!isOpen6" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph faq-paragraph">
+                            <p v-if="isOpen6" class="buy-house-spokane-paragraph faq-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
@@ -179,13 +182,13 @@ const toggleVisibility = () => {
                         </transition>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen7 = !isOpen7">
+                            <img v-if="!isOpen7" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph">
+                            <p v-if="isOpen7" class="buy-house-spokane-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
@@ -203,13 +206,13 @@ const toggleVisibility = () => {
                         </transition>
                     </div>
                     <div class="faq-question-point">
-                        <a class="faq-question-link" @click="toggleVisibility">
-                            <img v-if="!isOpen" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                        <a class="faq-question-link" @click="isOpen8 = !isOpen8">
+                            <img v-if="!isOpen8" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
                             Can I sell a house in probate?
                         </a>
                         <transition name="faq-slide">
-                            <p v-if="isOpen" class="buy-house-spokane-paragraph">
+                            <p v-if="isOpen8" class="buy-house-spokane-paragraph">
                                 Yes you can. We buy dozens of homes every year in the probate process, or help prior to
                                 the
                                 probate process. Many sellers don’t know that you can actually forego the probate
