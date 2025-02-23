@@ -19,9 +19,8 @@ const isOpen8 = ref(false);
         <div class="container">
             <div class="sell-my-house-wrapper">
                 <div class="sell-my-house-faster">
-                    <h1 class="common-heading sell-your-house-heading">Need To Sell Your House in Spokane?</h1>
-                    <h3 class="common-heading sell-your-house-paragraph">Sell Your Spokane House Fast for a Fair Cash
-                        Offer. No fees or Commissions. Any Condition!</h3>
+                    <h1 class="common-heading sell-your-house-heading">Selling A WA or ID Home is Simple and Quick</h1>
+                    <h3 class="common-heading sell-your-house-paragraph">No Costs, Commissions. or Repairs.</h3>
                     <form class="sell-my-house-form">
                         <input class="home-address-input" type="text" placeholder="Enter Your Home Address*">
                         <input class="phone-no-input" type="tel" placeholder="Phone *">
@@ -73,8 +72,11 @@ const isOpen8 = ref(false);
             <div class="how-we-sell-house-fast-container">
                 <div class="how-we-sell-house-fast-wrapper">
                     <h1 class="common-heading how-we-sell-house-fast-heading">
-                        How Do I Sell My House Fast In Spokane?
+                        What’s the Process to Sell My House Quickly for Cash in Spokane?
                     </h1>
+                    <p class="buy-house-spokane-paragraph pt-3">
+                        Here are the 3 Simple Steps to Receive Your Cash Offer for Your Washington House.
+                    </p>
                 </div>
             </div>
         </div>
@@ -87,12 +89,12 @@ const isOpen8 = ref(false);
                         <div class="content-icon">
                             <img src="~assets/images/mobile.svg">
                         </div>
-                        <h1 class="content-box-heading">Click Here To See How It Works</h1>
+                        <h1 class="content-box-heading">Get Started</h1>
                     </div>
                     <div class="content-box-paragraph">
-                        <p class="content-paragraph">The process itself is extremely quick and easy. But we break it
-                            down
-                            step by step because we care about you knowing how this process works!
+                        <p class="content-paragraph">You can initiate the process by either completing our online form
+                            or by calling us directly at: (509) 530-2088. We’ll immediately begin investigating your
+                            home’s specifics and commence working on an excellent offer tailored for you.
                         </p>
                     </div>
                 </div>
@@ -101,12 +103,12 @@ const isOpen8 = ref(false);
                         <div class="content-icon">
                             <img src="~assets/images/file-pencil-alt-1-svgrepo-com.svg">
                         </div>
-                        <h1 class="content-box-heading">Get to Know Our Company</h1>
+                        <h1 class="content-box-heading">Get Your Offer</h1>
                     </div>
                     <div class="content-box-paragraph">
-                        <p class="content-paragraph">You now know how the process works, now get to know who we are. We
-                            walk you through the process every step of the way. We are ALWAYS here to help and answer
-                            questions.
+                        <p class="content-paragraph">We’re more than willing to address any inquiries you might have and
+                            discuss your obligation-free cash proposal. The next step is entirely up to you. We put
+                            forward a reasonable cash offer, completely free of obligations and extra charges.
                         </p>
                     </div>
                 </div>
@@ -115,12 +117,12 @@ const isOpen8 = ref(false);
                         <div class="content-icon">
                             <img src="~assets/images/hand-holding-usd-svgrepo-com.svg">
                         </div>
-                        <h1 class="content-box-heading">Click Here for Your Cash Offer!</h1>
+                        <h1 class="content-box-heading">Get Paid</h1>
                     </div>
                     <div class="content-box-paragraph">
-                        <p class="content-paragraph">You now know how the process works, now get to know who we are. We
-                            walk you through the process every step of the way. We are ALWAYS here to help and answer
-                            questions.
+                        <p class="content-paragraph">Select your preferred closing date, then relax as you await your
+                            cash payout. You can access the funds you require now. There’s absolutely no need for you to
+                            endure a 6 – 12 month waiting period to sell your house.
                         </p>
                     </div>
                 </div>
@@ -134,25 +136,28 @@ const isOpen8 = ref(false);
                     <img class="img-fluid" src="~assets/images/the-easy-home-buyer-team.jpg">
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
-                    <h1 class="sell-my-house-fast-spokane-heading">Sell Your Spokane House Fast and Stress Free!</h1>
-                    <p class="sell-my-house-fast-spokane-paragraph">The Easy Home Buyer is formed of Chad and Bree
-                        Young, who owned Young’s Quality Cleaning before getting into buying homes. The janitorial
-                        company taught us about the satisfaction of cleaning up dirty places, which was further nurtured
-                        by “Penny.”
+                    <h1 class="sell-my-house-fast-spokane-heading">Are you sure it’s this straightforward?</h1>
+                    <p class="sell-my-house-fast-spokane-paragraph">You may have come across similar companies in your
+                        research, possibly even looked into their processes. Here’s how we stand out. Unlike most
+                        companies that prioritize gathering your information on their website and then decide whether to
+                        engage with you or not, we approach things a bit differently.
                     </p>
                     <p class="sell-my-house-fast-spokane-paragraph">
-                        The first-ever home that The Easy Home Buyer purchased was Penny’s, who had to sell her house as
-                        soon as possible before she moved back to Seattle. From Penny’s house, The Easy Home Buyer has
-                        grown by buying numerous Spokane homes.
+                        We’ve simplified the initial steps to kickstart the process. Numerous companies advertise cash
+                        offers for houses but seldom delve into their operational details. Therefore, we’ve dissected it
+                        (down to the minutest detail) for your benefit…
                     </p>
+                    <h1 class="sell-my-house-fast-spokane-heading">
+                        So far, you must have a good grasp of the critical steps involved in the process. The process
+                        itself is straightforward and speedy, but we’d love to provide an in-depth look at how every
+                        stage unfolds AND respond to some queries that we frequently encounter from sellers like
+                        yourself.
+                    </h1>
                     <p class="sell-my-house-fast-spokane-paragraph">
-                        As an accredited business, we understand the local market, from the beauty of Manito Park to the
-                        convenience of shopping downtown. We have purchased houses in all corners of the town and
-                        understand the unique attributes of each area.
-                    </p>
-                    <p class="sell-my-house-fast-spokane-paragraph">
-                        Every homeowner who says, “I need to <a href="#"> sell my house fast Spokane</a> ,” can count on
-                        us!
+                        So far, you must have a good grasp of the critical steps involved in the process. The process
+                        itself is straightforward and speedy, but we’d love to provide an in-depth look at how every
+                        stage unfolds AND respond to some queries that we frequently encounter from sellers like
+                        yourself that need to <a href="#" class="buy-house-spokane-link"> sell my house fast Spokane</a>.
                     </p>
                     <div class="sell-my-house-fast-spokane-btn">
                         <button class="free-offer-header-btn">

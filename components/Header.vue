@@ -18,7 +18,7 @@ const toggleMenu = () => {
         </div>
         <div class="header-container">
             <div class="header-logo">
-                <a href="#"><img class="img-fluid" src="~assets/images/the-easy-home-buyer-logo.webp"></a>
+                <a href="/"><img class="img-fluid" src="~assets/images/the-easy-home-buyer-logo.webp"></a>
             </div>
             <div class="navbar-links">
                 <ul class="navbar" :class="{ 'show-menu': isMenuOpen }">

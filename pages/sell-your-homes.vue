@@ -105,12 +105,11 @@
                         <div class="content-icon">
                             <img src="~assets/images/mobile.svg">
                         </div>
-                        <h1 class="content-box-heading">Click Here To See How It Works</h1>
+                        <h1 class="content-box-heading">Contact Us</h1>
                     </div>
                     <div class="content-box-paragraph">
-                        <p class="content-paragraph">The process itself is extremely quick and easy. But we break it
-                            down
-                            step by step because we care about you knowing how this process works!
+                        <p class="content-paragraph">We’ll look into your home’s details, such as the location,
+                            condition, and specifics. Once we have all the information, we’ll craft an offer!
                         </p>
                     </div>
                 </div>
@@ -119,12 +118,11 @@
                         <div class="content-icon">
                             <img src="~assets/images/file-pencil-alt-1-svgrepo-com.svg">
                         </div>
-                        <h1 class="content-box-heading">Get to Know Our Company</h1>
+                        <h1 class="content-box-heading">Get Your Offer</h1>
                     </div>
                     <div class="content-box-paragraph">
-                        <p class="content-paragraph">You now know how the process works, now get to know who we are. We
-                            walk you through the process every step of the way. We are ALWAYS here to help and answer
-                            questions.
+                        <p class="content-paragraph">The Easy Home Buyer will reach out to answer your questions if you
+                            have any. We’ll also present a fair cash offer without obligation and fees.
                         </p>
                     </div>
                 </div>
@@ -133,12 +131,11 @@
                         <div class="content-icon">
                             <img src="~assets/images/hand-holding-usd-svgrepo-com.svg">
                         </div>
-                        <h1 class="content-box-heading">Click Here for Your Cash Offer!</h1>
+                        <h1 class="content-box-heading">Get Paid</h1>
                     </div>
                     <div class="content-box-paragraph">
-                        <p class="content-paragraph">You now know how the process works, now get to know who we are. We
-                            walk you through the process every step of the way. We are ALWAYS here to help and answer
-                            questions.
+                        <p class="content-paragraph">Decide the date and time you want to close the sale. We will handle
+                            all the paperwork without delays to make it smooth.
                         </p>
                     </div>
                 </div>
@@ -153,24 +150,21 @@
                 </div>
                 <div class="sell-my-house-fast-spokane-description">
                     <h1 class="sell-my-house-fast-spokane-heading">Sell Your Spokane House Fast and Stress Free!</h1>
-                    <p class="sell-my-house-fast-spokane-paragraph">The Easy Home Buyer is formed of Chad and Bree
-                        Young, who owned Young’s Quality Cleaning before getting into buying homes. The janitorial
-                        company taught us about the satisfaction of cleaning up dirty places, which was further nurtured
-                        by “Penny.”
+                    <p class="sell-my-house-fast-spokane-paragraph">After helping hundreds of sellers we understand just
+                        how much stress an unwanted home can cause. Maybe your family home is trashed by ungrateful
+                        tenants, you had a divorce you never saw coming, or maybe an unexpected loss of a loved one. The
+                        situations themselves are sometimes far worse than the issues with the house. We get that, and
+                        are here to help put this chapter in the rear view mirror so you can
+                        <a href="#" class="buy-house-spokane-link">
+                            sell my house fast Spokane
+                        </a>
+                        and move on.
                     </p>
                     <p class="sell-my-house-fast-spokane-paragraph">
-                        The first-ever home that The Easy Home Buyer purchased was Penny’s, who had to sell her house as
-                        soon as possible before she moved back to Seattle. From Penny’s house, The Easy Home Buyer has
-                        grown by buying numerous Spokane homes.
-                    </p>
-                    <p class="sell-my-house-fast-spokane-paragraph">
-                        As an accredited business, we understand the local market, from the beauty of Manito Park to the
-                        convenience of shopping downtown. We have purchased houses in all corners of the town and
-                        understand the unique attributes of each area.
-                    </p>
-                    <p class="sell-my-house-fast-spokane-paragraph">
-                        Every homeowner who says, “I need to <a href="#"> sell my house fast Spokane</a> ,” can count on
-                        us!
+                        The world needs weirdo’s like us. We are Chad and Bree Young. Every moment we aren’t making each
+                        other laugh or chasing our 3 kids, we are fixing up houses and helping sellers find easy, stress
+                        free answers to their problems. Who else get’s excited about trashing out the equivalent of a
+                        small village’s worth of possessions? We do!
                     </p>
                     <div class="sell-my-house-fast-spokane-btn">
                         <button class="free-offer-header-btn">
@@ -187,11 +181,14 @@
             <div class="buy-house-spokane-container many-people-cannot-be-wrong-container">
                 <div class="buy-house-spokane-description">
                     <h1 class="common-heading sell-your-house-heading fs-1">
-                        So Many People Can’t Be Wrong
+                        Get Your No Obligation Offer Today
                     </h1>
                     <p class="buy-house-spokane-paragraph text-white">Everything 100% FREE. No Obligation to Accept. Get
-                        an Offer – You Can Always Say
-                        “No”!
+                        If you need to sell your house fast, we buy homes quickly for cash in Spokane WA and ID in just
+                        about any condition . Enjoy no commissions, fees, or obligations. See how much your home is
+                        worth today or call now at <a href="#" class="buy-house-spokane-link text-white"> (509)
+                            530-2088</a>…
+
                     </p>
                 </div>
                 <div class="get-your-cash-offer-button">
@@ -204,7 +201,7 @@
         <div class="container-fluid">
             <div class="people-love-us-wrapper">
                 <h1 class="common-heading how-we-sell-house-fast-heading">
-                    How Do I Sell My House Fast In Spokane?
+                    People Love Us, And So Will You
                 </h1>
                 <p class="how-we-sell-house-fast-paragraph p-0">
                     See why we have an A+ Rating with the BBB
@@ -269,6 +266,29 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="countless-home-section the-easiest-way-to-sell-house-section mb-5">
+        <div class="container">
+            <div class="countless-home-heading">
+                <h1 class="common-heading how-we-sell-house-fast-heading">
+                    Why Sell to The Easy Home Buyer?
+                </h1>
+                <p class="buy-house-spokane-paragraph sell-my-house-fast-spokane-paragraph">
+                    The Easy Home Buyer is a local, family owned company that’s been buying, fixing and selling homes
+                    for over a decade in our area. We buy houses in Spokane Washington, Coeur d’Alene, Idaho and the
+                    surrounding areas for cash. Because we pay cash there are no realtor fees, no commissions, and we
+                    always pay the closing costs! There are no banks, no appraisals, just cash. Often times we save
+                    sellers tens of thousands of dollars, and put cash in their pockets in as little as 7 days. We’re
+                    also honest. If we aren’t a good fit and there’s a better option we’ll let you know. We are here to
+                    help.
+                </p>
+                <p class="buy-house-spokane-paragraph sell-my-house-fast-spokane-paragraph">
+                    We have helped hundreds of local sellers, and have NEVER failed to close. Regardless of your
+                    situation we are here to help. This process can be daunting, stressful and loooong. We take all of
+                    that out of the equation to make it the EASIEST, FASTEST most stress-free process GUARANTEED.
+                </p>
             </div>
         </div>
     </section>
@@ -537,7 +557,7 @@
         <div class="container-fluid">
             <div class="buy-house-spokane-container many-people-cannot-be-wrong-container">
                 <div class="buy-house-spokane-description">
-                    <h1 class="common-heading sell-your-house-heading fs-1">
+                    <h1 class="common-heading sell-your-house-heading fs-1 text-start">
                         Get Your FREE Cash Offer in Minutes. Get Started Now…
                     </h1>
                     <p class="buy-house-spokane-paragraph text-white">We buy houses in ANY CONDITION in Coeur d’Alene

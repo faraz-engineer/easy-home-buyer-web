@@ -260,6 +260,7 @@ header {
     width: 380px;
     min-height: 360px;
     padding: 36px;
+    height: 400px;
 }
 
 .content-box-heading {
@@ -397,6 +398,7 @@ header {
     min-height: unset;
     padding: 20px;
     width: 350px;
+    height: unset;
 }
 
 .people-love-us-box-links {
