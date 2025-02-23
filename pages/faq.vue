@@ -9,6 +9,8 @@ const isOpen5 = ref(false);
 const isOpen6 = ref(false);
 const isOpen7 = ref(false);
 const isOpen8 = ref(false);
+const isOpen9 = ref(false);
+const isOpen10 = ref(false);
 
 
 </script>
@@ -65,23 +67,14 @@ const isOpen8 = ref(false);
                         <a class="faq-question-link" @click="isOpen2 = !isOpen2">
                             <img v-if="!isOpen2" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
-                            Can I sell a house in probate?
+                            Can you stop a foreclosure?
                         </a>
                         <transition name="faq-slide">
                             <p v-if="isOpen2" class="buy-house-spokane-paragraph">
-                                Yes you can. We buy dozens of homes every year in the probate process, or help prior to
-                                the
-                                probate process. Many sellers don’t know that you can actually forego the probate
-                                process if
-                                the necessary paperwork is filled out (our closing attorney does all of this for us,
-                                free of
-                                charge to our sellers). We buy inherited properties after the probate process and
-                                anywhere
-                                in-between. We have become known as probate experts in our area because of our ability
-                                to
-                                help people navigate the process so well. Even if you just have questions about the
-                                probate
-                                process, please give us a call!
+                                Can we ever. We have stopped dozens of foreclosures and work hand in hand with the best
+                                closing attorneys in town to get auctions delayed if necessary. We have had people call
+                                us the day before an auction and we were able to help. I highly recommend not waiting
+                                that long but we have helped dozens of sellers avoid foreclosure.
                             </p>
                         </transition>
                     </div>
@@ -89,23 +82,14 @@ const isOpen8 = ref(false);
                         <a class="faq-question-link" @click="isOpen3 = !isOpen3">
                             <img v-if="!isOpen3" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
-                            Can I sell a house in probate?
+                            Do you buy properties in any condition?
                         </a>
                         <transition name="faq-slide">
                             <p v-if="isOpen3" class="buy-house-spokane-paragraph">
-                                Yes you can. We buy dozens of homes every year in the probate process, or help prior to
-                                the
-                                probate process. Many sellers don’t know that you can actually forego the probate
-                                process if
-                                the necessary paperwork is filled out (our closing attorney does all of this for us,
-                                free of
-                                charge to our sellers). We buy inherited properties after the probate process and
-                                anywhere
-                                in-between. We have become known as probate experts in our area because of our ability
-                                to
-                                help people navigate the process so well. Even if you just have questions about the
-                                probate
-                                process, please give us a call!
+                                Absolutely. Every month we buy homes that need absolutely no work, and homes that should
+                                be featured on some house flipping show on HGTV. We’ve torn down houses to build new,
+                                and bought large estates. There really isn’t a home we won’t consider as long as we get
+                                to help a seller and it’s a win-win.
                             </p>
                         </transition>
                     </div>
@@ -113,23 +97,20 @@ const isOpen8 = ref(false);
                         <a class="faq-question-link" @click="isOpen4 = !isOpen4">
                             <img v-if="!isOpen4" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
-                            Can I sell a house in probate?
+                            Why should I choose The Easy Home Buyer?
                         </a>
                         <transition name="faq-slide">
                             <p v-if="isOpen4" class="buy-house-spokane-paragraph">
-                                Yes you can. We buy dozens of homes every year in the probate process, or help prior to
-                                the
-                                probate process. Many sellers don’t know that you can actually forego the probate
-                                process if
-                                the necessary paperwork is filled out (our closing attorney does all of this for us,
-                                free of
-                                charge to our sellers). We buy inherited properties after the probate process and
-                                anywhere
-                                in-between. We have become known as probate experts in our area because of our ability
-                                to
-                                help people navigate the process so well. Even if you just have questions about the
-                                probate
-                                process, please give us a call!
+                                We do business differently. To be totally honest, cash home buyers can garner a bad
+                                reputation because it’s prevalent for them to “back out” or “price drop” people. We are
+                                the highest rated and reviewed company in our area because we have successfully closed
+                                99% of all contracts we have ever entered into. Not to get on a soap box but if we tell
+                                somebody we are going to buy their house we just plain do. We understand people are
+                                planning their next life chapter and often have already set that ball in motion when we
+                                sign a contract. At our company, we are men and women of our word. But please, don’t
+                                take our word for it. Read over 100 five star reviews on google where other sellers have
+                                talked about their experience. Or give us a call and talk to us, at the end of the day
+                                we are here to help you.
                             </p>
                         </transition>
                     </div>
@@ -137,23 +118,19 @@ const isOpen8 = ref(false);
                         <a class="faq-question-link" @click="isOpen5 = !isOpen5">
                             <img v-if="!isOpen5" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
-                            Can I sell a house in probate?
+                            How does a cash offer sale work?
                         </a>
                         <transition name="faq-slide">
                             <p v-if="isOpen5" class="buy-house-spokane-paragraph">
-                                Yes you can. We buy dozens of homes every year in the probate process, or help prior to
-                                the
-                                probate process. Many sellers don’t know that you can actually forego the probate
-                                process if
-                                the necessary paperwork is filled out (our closing attorney does all of this for us,
-                                free of
-                                charge to our sellers). We buy inherited properties after the probate process and
-                                anywhere
-                                in-between. We have become known as probate experts in our area because of our ability
-                                to
-                                help people navigate the process so well. Even if you just have questions about the
-                                probate
-                                process, please give us a call!
+                                Because we don’t use banks it’s extremely quick and easy. The short version is we agree
+                                on a price that works for both of us, and the terms (like how long you want to close, do
+                                you want to leave everything in the house etc). We then submit your purchase agreement
+                                to our closing and title companies, there will be some limited documents and questions
+                                they need answered (all of which we handle for you, like loan payoffs). Then we just
+                                wait until the close date. There are no appraisals, no commissions. It’s honestly as
+                                quick and easy as you can sell a house. Our average seller we get to work with typically
+                                has less than 1 hour into the home selling process and collects their cash within 1-3
+                                weeks.
                             </p>
                         </transition>
                     </div>
@@ -161,23 +138,15 @@ const isOpen8 = ref(false);
                         <a class="faq-question-link" @click="isOpen6 = !isOpen6">
                             <img v-if="!isOpen6" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
-                            Can I sell a house in probate?
+                            Do you buy houses with tenants?
                         </a>
                         <transition name="faq-slide">
                             <p v-if="isOpen6" class="buy-house-spokane-paragraph faq-paragraph">
-                                Yes you can. We buy dozens of homes every year in the probate process, or help prior to
-                                the
-                                probate process. Many sellers don’t know that you can actually forego the probate
-                                process if
-                                the necessary paperwork is filled out (our closing attorney does all of this for us,
-                                free of
-                                charge to our sellers). We buy inherited properties after the probate process and
-                                anywhere
-                                in-between. We have become known as probate experts in our area because of our ability
-                                to
-                                help people navigate the process so well. Even if you just have questions about the
-                                probate
-                                process, please give us a call!
+                                Only dozens of times per year. We understand that selling a house with tenants can be
+                                very delicate situations. We ALWAYS work with tenants to see what the best plan for them
+                                is. We’ve bought a lot of homes with tenants, some prefer to stay in place. Other houses
+                                we have purchased the tenants prefer to move on and have the place fixed up. We walk all
+                                parties through their options and see exactly how we can help.
                             </p>
                         </transition>
                     </div>
@@ -185,23 +154,14 @@ const isOpen8 = ref(false);
                         <a class="faq-question-link" @click="isOpen7 = !isOpen7">
                             <img v-if="!isOpen7" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
-                            Can I sell a house in probate?
+                            Can I live in the house after closing?
                         </a>
                         <transition name="faq-slide">
                             <p v-if="isOpen7" class="buy-house-spokane-paragraph">
-                                Yes you can. We buy dozens of homes every year in the probate process, or help prior to
-                                the
-                                probate process. Many sellers don’t know that you can actually forego the probate
-                                process if
-                                the necessary paperwork is filled out (our closing attorney does all of this for us,
-                                free of
-                                charge to our sellers). We buy inherited properties after the probate process and
-                                anywhere
-                                in-between. We have become known as probate experts in our area because of our ability
-                                to
-                                help people navigate the process so well. Even if you just have questions about the
-                                probate
-                                process, please give us a call!
+                                We’d love to talk to you about this. We allow people to live in the home post-closing
+                                often. We can walk you through what those options are. We completely understand you
+                                might need the cash now, but a month or two to find another place to live or plan the
+                                next chapter of your life. We’re here to help you with that.
                             </p>
                         </transition>
                     </div>
@@ -209,23 +169,43 @@ const isOpen8 = ref(false);
                         <a class="faq-question-link" @click="isOpen8 = !isOpen8">
                             <img v-if="!isOpen8" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
                             <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
-                            Can I sell a house in probate?
+                            How quickly can you close?
                         </a>
                         <transition name="faq-slide">
                             <p v-if="isOpen8" class="buy-house-spokane-paragraph">
-                                Yes you can. We buy dozens of homes every year in the probate process, or help prior to
-                                the
-                                probate process. Many sellers don’t know that you can actually forego the probate
-                                process if
-                                the necessary paperwork is filled out (our closing attorney does all of this for us,
-                                free of
-                                charge to our sellers). We buy inherited properties after the probate process and
-                                anywhere
-                                in-between. We have become known as probate experts in our area because of our ability
-                                to
-                                help people navigate the process so well. Even if you just have questions about the
-                                probate
-                                process, please give us a call!
+                                Because we pay cash, it’s really on your timeline. We’ve closed houses in as little as 3
+                                days, and we’ve extended closings out for months at the request of the seller so they
+                                could make time to find another place. We often will let people live in the house after
+                                closing if that can help your situation too.
+                            </p>
+                        </transition>
+                    </div>
+                    <div class="faq-question-point">
+                        <a class="faq-question-link" @click="isOpen9 = !isOpen9">
+                            <img v-if="!isOpen9" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                            <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
+                            Do you buy any type of property?
+                        </a>
+                        <transition name="faq-slide">
+                            <p v-if="isOpen9" class="buy-house-spokane-paragraph">
+                                Yes indeed. We have bought everything from bare land, to tear down houses, condos,
+                                apartment buildings, mansions, houses that needed zero work and houses that need full
+                                rehabs. We love every scenario as long as we get to help the person selling.
+                            </p>
+                        </transition>
+                    </div>
+                    <div class="faq-question-point">
+                        <a class="faq-question-link" @click="isOpen10 = !isOpen10">
+                            <img v-if="!isOpen10" width="25px" src="~/assets/images/plus-large-svgrepo-com.svg">
+                            <img v-else class="minus-icon" width="25px" src="~/assets/images/minus-svgrepo-com.svg">
+                            Do I need to have my house empty to sell?
+                        </a>
+                        <transition name="faq-slide">
+                            <p v-if="isOpen10" class="buy-house-spokane-paragraph">
+                                Absolutely not ????. We buy houses in any condition, regardless of content. We have a
+                                “leave behind” special that we would love to talk with you about. Many sellers decide to
+                                sell to us and prefer to have us take on all of the items left behind. We’re REALLY good
+                                at cleaning out properties (practice makes perfect!)
                             </p>
                         </transition>
                     </div>
@@ -234,7 +214,8 @@ const isOpen8 = ref(false);
                     <div class="choose-easy-home-buyer-wrapper">
                         <div class="sell-my-house-reviews-image">
                             <img class="img-fluid" src="~assets/images/google-review-cash-home-buyer-5.webp">
-                            <img class="img-fluid" src="~assets/images/testimonials-best-sell-my-house-fast-company.webp">
+                            <img class="img-fluid"
+                                 src="~assets/images/testimonials-best-sell-my-house-fast-company.webp">
                         </div>
                         <div class="choose-easy-home-buyer">
                             <h1 class="choose-easy-home-buyer-heading">

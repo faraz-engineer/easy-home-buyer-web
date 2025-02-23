@@ -3,29 +3,59 @@
 </script>
 
 <template>
-    <section class="sell-your-house-section">
-        <div class="container">
-            <div class="sell-my-house-wrapper">
-                <div class="sell-my-house-faster">
-                    <h1 class="common-heading sell-your-house-heading">Need To Sell Your House in Spokane?</h1>
-                    <h3 class="common-heading sell-your-house-paragraph">Sell Your Spokane House Fast for a Fair Cash
-                        Offer. No fees or Commissions. Any Condition!</h3>
+    <section class="sell-your-house-section we-offer-better-solution-section">
+        <div class="container-fluid">
+            <div class="we-offer-better-solution-wrapper">
+                <div class="we-offer-better-solution-content">
+                    <h1 class="common-heading sell-your-house-heading">We Offer A Better Faster & Easier Way</h1>
+                    <h3 class="common-heading sell-your-house-paragraph py-4">Sell Your House Without A Realtor, As Is,
+                        For Cash</h3>
                     <form class="sell-my-house-form">
-                        <input class="home-address-input" type="text" placeholder="Enter Your Home Address*">
-                        <input class="phone-no-input" type="tel" placeholder="Phone *">
-                        <div class="form-input-btn">
+                        <input class="home-address-input sell-your-home-input" type="text"
+                               placeholder="Enter Your Home Address*">
+                        <input class="phone-no-input sell-your-phone-input" type="tel" placeholder="Phone *">
+                        <div class="form-input-btn sell-your-home-input-btn">
                             <button class="free-offer-header-btn">
                                 GET MY FREE OFFER
                             </button>
                         </div>
                     </form>
                     <div class="home-buyer-description">
-                        <h2 class="common-heading home-buyer-line">SPOKANE & CDA’S TRUSTED HOME BUYER SINCE 2019 </h2>
+                        <h2 class="common-heading home-buyer-line text-center py-4">SPOKANE & CDA’S TRUSTED HOME BUYER
+                            SINCE 2019 </h2>
                     </div>
                     <div class="sell-my-house-reviews-image">
                         <img style="width: 150px;" src="~assets/images/google-review-cash-home-buyer-5.webp">
                         <img style="width: 200px;"
                              src="~assets/images/testimonials-best-sell-my-house-fast-company.webp">
+                    </div>
+                </div>
+                <div class="choose-easy-home-buyer-box how-its-work-wrapper">
+                    <div class="choose-easy-home-buyer-wrapper">
+                        <div class="choose-easy-home-buyer">
+                            <h1 class="choose-easy-home-buyer-heading">
+                                How it works
+                            </h1>
+                        </div>
+                        <div class="areas-we-serve-points faq-points">
+                            <img width="30px" src="~/assets/images/dark-check-com.svg">
+                            <p class="areas-we-serve-points-paragraph">Tell us about your property – Quick, Easy &
+                                Free!</p>
+                        </div>
+                        <div class="areas-we-serve-points faq-points">
+                            <img width="30px" src="~/assets/images/dark-check-com.svg">
+                            <p class="areas-we-serve-points-paragraph">We’ll present you w/ a fair written,
+                                no-obligation offer</p>
+                        </div>
+                        <div class="areas-we-serve-points faq-points">
+                            <img width="30px" src="~/assets/images/dark-check-com.svg">
+                            <p class="areas-we-serve-points-paragraph ">We close at a local reputable title company,
+                                cash in your hands in as little as 7 days</p>
+                        </div>
+                        <p class="buy-house-spokane-paragraph py-3">
+                            We buy houses in any condition. No realtors, no fees, no commissions, no repairs & no need
+                            to clean. Get Your No-Obligation All Cash Offer Started Today!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -510,9 +540,11 @@
                     <h1 class="common-heading sell-your-house-heading fs-1">
                         Get Your FREE Cash Offer in Minutes. Get Started Now…
                     </h1>
-                    <p class="buy-house-spokane-paragraph text-white">We buy houses in ANY CONDITION in Coeur d’Alene Idaho and neighboring Spokane, WA. There are no commissions or fees and no obligation whatsoever. Start by giving us a bit of information about your property or call
-                        <a class="buy-house-spokane-link text-white" href="#" >
-                        (509) 530-2088…
+                    <p class="buy-house-spokane-paragraph text-white">We buy houses in ANY CONDITION in Coeur d’Alene
+                        Idaho and neighboring Spokane, WA. There are no commissions or fees and no obligation
+                        whatsoever. Start by giving us a bit of information about your property or call
+                        <a class="buy-house-spokane-link text-white" href="#">
+                            (509) 530-2088…
                         </a>
                     </p>
                 </div>

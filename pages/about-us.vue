@@ -238,15 +238,39 @@
         </div>
     </section>
 
-    <section class="countless-home-section">
-        <div class="container-fluid">
-
+    <section class="countless-home-section the-easiest-way-to-sell-house-section">
+        <div class="container">
+            <div class="countless-home-heading">
+                <h1 class="common-heading how-we-sell-house-fast-heading">
+                    Countless Homes. Big Plans.
+                </h1>
+                <p class="buy-house-spokane-paragraph sell-my-house-fast-spokane-paragraph">
+                    During the next 10 years, we plan on flipping more than 1,000 homes in our area. This area has
+                    plenty of homes that need some TLC. If we keep up our efforts, we can have a huge impact on a lot of
+                    people.
+                </p>
+                <p class="buy-house-spokane-paragraph sell-my-house-fast-spokane-paragraph">
+                    There will be a drastic change in the lives of people in our area, and we will still be able to do
+                    what we love. As we continue to grow our company and invest in our team members, we are excited
+                    about the future. We consider this business a gift.
+                </p>
+            </div>
         </div>
     </section>
     <section class="easy-core-value-section">
         <div class="container-fluid">
             <div class="how-we-sell-house-fast-wrapper the-easy-way-to-sell-house-wrapper">
-                <h1 class="common-heading how-we-sell-house-fast-heading">
+                <div class="the-easy-mission-box">
+                    <div class="countless-home-heading">
+                        <h1 class="common-heading how-we-sell-house-fast-heading">
+                            The Easy Mission
+                        </h1>
+                        <p class="buy-house-spokane-paragraph sell-my-house-fast-spokane-paragraph">
+                            Helping people sell their homes in the simplest, quickest manner possible.
+                        </p>
+                    </div>
+                </div>
+                <h1 class="common-heading how-we-sell-house-fast-heading pt-5">
                     The Easy Core Values
                 </h1>
             </div>
@@ -342,6 +366,27 @@
                         </button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </section>
+    <section class="countless-home-section the-easiest-way-to-sell-house-section">
+        <div class="container">
+            <div class="countless-home-heading">
+                <h1 class="common-heading how-we-sell-house-fast-heading">
+                    Our Commitment to You
+                </h1>
+                <p class="buy-house-spokane-paragraph sell-my-house-fast-spokane-paragraph">
+                    We understand how overwhelming it can be to sell a home in Spokane, WA. At The Easy Home Buyer, our
+                    mission is to make the process as streamlined and stress-free as possible for our customers. As a
+                    trusted home-buying company in Spokane, we provide personalized services that are tailored to meet
+                    your unique needs.
+                </p>
+                <p class="buy-house-spokane-paragraph sell-my-house-fast-spokane-paragraph">
+                    We’re here to help you find solutions. Our team takes the time to get to know you and your situation
+                    so we can provide the best possible outcome for your home selling experience. We understand that
+                    every seller has different needs and goals, which is why we offer customized solutions designed
+                    specifically for each customer.
+                </p>
             </div>
         </div>
     </section>
