@@ -143,6 +143,16 @@
     .blog-content-wrapper {
         flex-direction: column;
     }
+    .we-offer-better-solution-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .we-offer-better-solution-content {
+        max-width: 100%;
+    }
+    .how-its-work-wrapper {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
