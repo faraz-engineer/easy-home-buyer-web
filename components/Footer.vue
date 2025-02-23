@@ -10,7 +10,7 @@
                 <div class="footer-wrapper">
                     <div class="footer-logo-container">
                         <div class="header-logo">
-                            <a href="#"><img class="img-fluid"
+                            <a href="/"><img class="img-fluid"
                                              src="~assets/images/the-easy-home-buyer-logo-white-1200x205.png"></a>
                         </div>
                         <div class="footer-social-icon">
