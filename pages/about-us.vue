@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="choose-easy-home-buyer-box">
+                <div class="choose-easy-home-buyer-box faq-easy-home-buyer-box">
                     <div class="choose-easy-home-buyer-wrapper">
                         <div class="sell-my-house-reviews-image">
                             <img style="width: 150px;" src="~assets/images/google-review-cash-home-buyer-5.webp">
